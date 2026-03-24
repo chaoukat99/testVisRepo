@@ -1,0 +1,889 @@
+{
+    "navbar": {
+        "home": {
+            "fr": "ACCUEIL",
+            "en": "HOME",
+            "ar": "الرئيسية"
+        },
+        "company": {
+            "fr": "ENTREPRISE",
+            "en": "COMPANY",
+            "ar": "الشركات"
+        },
+        "talents": {
+            "fr": "TALENTS",
+            "en": "TALENTS",
+            "ar": "المواهب"
+        },
+        "ai_space": {
+            "fr": "ESPACE IA",
+            "en": "AI SPACE",
+            "ar": "فضاء الذكاء الاصطناعي"
+        },
+        "ressource": {
+            "fr": "RESSOURCES",
+            "en": "RESOURCES",
+            "ar": "الموارد"
+        },
+        "login": {
+            "fr": "Connexion",
+            "en": "Login",
+            "ar": "دخول"
+        },
+        "signup": {
+            "fr": "S'inscrire",
+            "en": "Sign Up",
+            "ar": "إنشاء حساب"
+        },
+        "freelancer": {
+            "fr": "FREELANCE",
+            "en": "FREELANCE",
+            "ar": "مستقل"
+        }
+    },
+    "hero": {
+        "badge": {
+            "fr": "Technologie basée sur l’IA",
+            "en": "Powered By AI",
+            "ar": "منصة تعتمد على الذكاء الاصطناعي"
+        },
+        "title_prefix": {
+            "fr": "Connectez",
+            "en": "Connect",
+            "ar": "تواصل مع"
+        },
+        "words": {
+            "excellence": {
+                "fr": "L'Excellence",
+                "en": "Excellence",
+                "ar": "التميز"
+            },
+            "talent": {
+                "fr": "Le Talent",
+                "en": "Talent",
+                "ar": "الموهبة"
+            },
+            "innovation": {
+                "fr": "L'Innovation",
+                "en": "Innovation",
+                "ar": "الابتكار"
+            }
+        },
+        "subtitle": {
+            "fr": "L'écosystème intelligent qui unit les talents d'élite aux entreprises visionnaires.",
+            "en": "The intelligent ecosystem uniting elite talent with visionary companies.",
+            "ar": "النظام البيئي الذكي الذي يربط نخبة المواهب بالشركات ذات الرؤية."
+        },
+        "subtitle_highlight": {
+            "fr": "Redéfinissez l'excellence avec notre matching prédictif.",
+            "en": "Redefine excellence with our predictive matching.",
+            "ar": "أعد تعريف التميز من خلال المطابقة التنبؤية لدينا."
+        },
+        "btn_company": {
+            "fr": "Je Recrute",
+            "en": "I'm Hiring",
+            "ar": "أنا أوظف"
+        },
+        "btn_consultant": {
+            "fr": "Je suis Consultant",
+            "en": "I'm a Consultant",
+            "ar": "أنا مستشار"
+        },
+        "stats": {
+            "consultants": {
+                "fr": "Consultants",
+                "en": "Consultants",
+                "ar": "مستشارون"
+            },
+            "companies": {
+                "fr": "Entreprises",
+                "en": "Companies",
+                "ar": "شركات"
+            },
+            "match_rate": {
+                "fr": "Taux de Match",
+                "en": "Match Rate",
+                "ar": "نسبة التطابق"
+            }
+        }
+    },
+    "features_company": {
+        "heading": {
+            "badge": {
+                "fr": "UNIVERS ENTREPRISES",
+                "en": "COMPANY UNIVERSE",
+                "ar": "عالم الشركات"
+            },
+            "title": {
+                "fr": "Tout Pour Réussir",
+                "en": "Everything to Succeed",
+                "ar": "كل ما تحتاجه للنجاح"
+            },
+            "description": {
+                "fr": "Notre plateforme fournit tous les outils pour rationaliser votre processus de recrutement RH grâce à la puissance de l'IA.",
+                "en": "Our platform provides all the tools to streamline your HR recruitment process using the power of AI.",
+                "ar": "توفر منصتنا جميع الأدوات لتبسيط عملية التوظيف الخاصة بك باستخدام قوة الذكاء الاصطناعي."
+            }
+        },
+        "items": {
+            "matching_ai": {
+                "title": {
+                    "fr": "Matching par IA",
+                    "en": "AI Matching",
+                    "ar": "المطابقة بالذكاء الاصطناعي"
+                },
+                "desc": {
+                    "fr": "Notre IA avancée analyse compétences, expériences et préférences pour trouver le match parfait consultant-entreprise.",
+                    "en": "Our advanced AI analyzes skills, experience, and preferences to find the perfect consultant-company match.",
+                    "ar": "يقوم الذكاء الاصطناعي المتقدم لدينا بتحليل المهارات والخبرات والتفضيلات للعثور على التطابق المثالي بين الاستشاري والشركة."
+                }
+            },
+            "search": {
+                "title": {
+                    "fr": "Recherche Multi-Critères",
+                    "en": "Multi-Criteria Search",
+                    "ar": "بحث متعدد المعايير"
+                },
+                "desc": {
+                    "fr": "Filtrez les consultants par compétences, lieu, disponibilité, tarif et plus avec notre système de recherche puissant.",
+                    "en": "Filter consultants by skills, location, availability, rate, and more with our powerful search system.",
+                    "ar": "قم بتصفية المستشارين حسب المهارات والموقع والتوافر والسعر والمزيد باستخدام نظام البحث القوي لدينا."
+                }
+            },
+            "consultants_base": {
+                "title": {
+                    "fr": "Base de Consultants",
+                    "en": "Consultant Database",
+                    "ar": "قاعدة بيانات المستشارين"
+                },
+                "desc": {
+                    "fr": "Accédez à des milliers de consultants vérifiés avec profils détaillés, portfolios et statut de disponibilité.",
+                    "en": "Access thousands of verified consultants with detailed profiles, portfolios, and availability status.",
+                    "ar": "الوصول إلى الآلاف من المستشارين المعتمدين بملفات تعريف مفصلة محافظ وحالة التوافر."
+                }
+            },
+            "company_portal": {
+                "title": {
+                    "fr": "Portail Entreprise",
+                    "en": "Company Portal",
+                    "ar": "بوابة الشركات"
+                },
+                "desc": {
+                    "fr": "Gérez vos missions, suivez les candidatures et communiquez avec les consultants sur un hub centralisé.",
+                    "en": "Manage your missions, track applications, and communicate with consultants on a centralized hub.",
+                    "ar": "أدر مهامك وتتبع الطلبات وتواصل مع المستشارين في مركز موحد."
+                }
+            },
+            "instant_match": {
+                "title": {
+                    "fr": "Matching Instantané",
+                    "en": "Instant Matching",
+                    "ar": "مطابقة فورية"
+                },
+                "desc": {
+                    "fr": "Obtenez des suggestions en temps réel. Notre IA travaille 24/7 pour trouver les meilleurs candidats.",
+                    "en": "Get real-time suggestions. Our AI works 24/7 to find the best candidates.",
+                    "ar": "احصل على اقتراحات في الوقت الفعلي. يعمل الذكاء الاصطناعي لدينا على مدار الساعة طوال أيام الأسبوع للعثور على أفضل المرشحين."
+                }
+            },
+            "verified_profiles": {
+                "title": {
+                    "fr": "Profils Vérifiés",
+                    "en": "Verified Profiles",
+                    "ar": "ملفات شخصية تم التحقق منها"
+                },
+                "desc": {
+                    "fr": "Tous les consultants passent par notre processus de vérification pour assurer qualité et authenticité.",
+                    "en": "All consultants go through our verification process to ensure quality and authenticity.",
+                    "ar": "يمر جميع المستشارين بعملية التحقق لضمان الجودة والأصالة."
+                }
+            },
+            "global_network": {
+                "title": {
+                    "fr": "Réseau Global",
+                    "en": "Global Network",
+                    "ar": "شبكة عالمية"
+                },
+                "desc": {
+                    "fr": "Connectez-vous avec talents et opportunités dans le monde entier. Distanciel, hybride ou sur site.",
+                    "en": "Connect with talent and opportunities worldwide. Remote, hybrid, or on-site.",
+                    "ar": "تواصل مع المواهب والفرص في جميع أنحاء العالم. عن بعد، هجين، أو في الموقع."
+                }
+            },
+            "smart_reco": {
+                "title": {
+                    "fr": "Recommandations Intelligentes",
+                    "en": "Smart Recommendations",
+                    "ar": "توصيات ذكية"
+                },
+                "desc": {
+                    "fr": "Recevez des recommandations de missions et candidats basées sur votre historique et préférences.",
+                    "en": "Receive mission and candidate recommendations based on your history and preferences.",
+                    "ar": "تلقي توصيات بالمهام والمرشحين بناءً على تاريخك وتفضيلاتك."
+                }
+            },
+            "analytics": {
+                "title": {
+                    "fr": "Analyses RH",
+                    "en": "HR Analytics",
+                    "ar": "تحليلات الموارد البشرية"
+                },
+                "desc": {
+                    "fr": "Suivez vos performances de recrutement avec des tableaux de bord détaillés et des KPI en temps réel.",
+                    "en": "Track your recruitment performance with detailed dashboards and real-time KPIs.",
+                    "ar": "تتبع أداء التوظيف الخاص بك من خلال لوحات معلومات مفصلة ومؤشرات أداء رئيسية في الوقت الفعلي."
+                }
+            },
+            "compliance": {
+                "title": {
+                    "fr": "Conformité Légale",
+                    "en": "Legal Compliance",
+                    "ar": "الامتثال القانوني"
+                },
+                "desc": {
+                    "fr": "Assurez la conformité de vos contrats et documents avec les réglementations en vigueur.",
+                    "en": "Ensure compliance of your contracts and documents with current regulations.",
+                    "ar": "ضمان امتثال عقودك ومستنداتك للوائح الحالية."
+                }
+            },
+            "sourcing": {
+                "title": {
+                    "fr": "Sourcing Automatisé",
+                    "en": "Automated Sourcing",
+                    "ar": "التوظيف الآلي"
+                },
+                "desc": {
+                    "fr": "Laissez notre IA identifier les meilleurs canaux et candidats pour vos besoins spécifiques.",
+                    "en": "Let our AI identify the best channels and candidates for your specific needs.",
+                    "ar": "دع الذكاء الاصطناعي لدينا يحدد أفضل القنوات والمرشحين لاحتياجاتك الخاصة."
+                }
+            },
+            "support": {
+                "title": {
+                    "fr": "Support 24/7",
+                    "en": "24/7 Support",
+                    "ar": "دعم 24/7"
+                },
+                "desc": {
+                    "fr": "Une équipe dédiée pour vous accompagner à chaque étape de votre processus de recrutement.",
+                    "en": "A dedicated team to support you at every stage of your recruitment process.",
+                    "ar": "فريق مخصص لدعمك في كل مرحلة من مراحل عملية التوظيف الخاصة بك."
+                }
+            }
+        }
+    },
+    "features_consultant": {
+        "heading": {
+            "badge": {
+                "fr": "UNIVERS TALENTS",
+                "en": "TALENT UNIVERSE",
+                "ar": "عالم المواهب"
+            },
+            "title": {
+                "fr": "Propulsez Votre Carrière",
+                "en": "Boost Your Career",
+                "ar": "عزز مسيرتك المهنية"
+            },
+            "description": {
+                "fr": "Découvrez des missions qui correspondent vraiment à vos compétences et à vos aspirations grâce à notre IA.",
+                "en": "Discover missions that truly match your skills and aspirations with our AI.",
+                "ar": "اكتشف المهام التي تتوافق حقًا مع مهاراتك وطموحاتك من خلال الذكاء الاصطناعي لدينا."
+            }
+        },
+        "items": {
+            "ai_matching": {
+                "title": {
+                    "fr": "Matching Prédictif",
+                    "en": "Predictive Matching",
+                    "ar": "المطابقة التنبؤية"
+                },
+                "desc": {
+                    "fr": "Notre IA analyse votre profil pour vous proposer les missions les plus pertinentes.",
+                    "en": "Our AI analyzes your profile to suggest the most relevant missions.",
+                    "ar": "يحلل الذكاء الاصطناعي ملفك الشخصي لاقتراح أكثر المهام صلة."
+                }
+            },
+            "visibility": {
+                "title": {
+                    "fr": "Visibilité Accrue",
+                    "en": "Increased Visibility",
+                    "ar": "رؤية معززة"
+                },
+                "desc": {
+                    "fr": "Mettez en avant vos compétences devant les entreprises les plus innovantes du marché.",
+                    "en": "Showcase your skills to the most innovative companies in the market.",
+                    "ar": "اعرض مهاراتك أمام الشركات الأكثر ابتكارًا في السوق."
+                }
+            },
+            "career_coach": {
+                "title": {
+                    "fr": "Coach Carrière IA",
+                    "en": "AI Career Coach",
+                    "ar": "مدرب مهني بالذكاء الاصطناعي"
+                },
+                "desc": {
+                    "fr": "Recevez des conseils personnalisés pour améliorer votre profil et vos chances de succès.",
+                    "en": "Receive personalized advice to improve your profile and your chances of success.",
+                    "ar": "احصل على نصائح مخصصة لتحسين ملفك الشخصي وفرص نجاحك."
+                }
+            },
+            "secure_payments": {
+                "title": {
+                    "fr": "Paiements Sécurisés",
+                    "en": "Secure Payments",
+                    "ar": "مدفوعات آمنة"
+                },
+                "desc": {
+                    "fr": "Bénéficiez d'un système de facturation et de paiement sécurisé et transparent.",
+                    "en": "Benefit from a secure and transparent billing and payment system.",
+                    "ar": "استفد من نظام فواتير ومدفوعات آمن وشفاف."
+                }
+            },
+            "flexibility": {
+                "title": {
+                    "fr": "Flexibilité Totale",
+                    "en": "Total Flexibility",
+                    "ar": "مرونة كاملة"
+                },
+                "desc": {
+                    "fr": "Choisissez vos missions selon vos préférences : télétravail, hybride ou sur site.",
+                    "en": "Choose your missions based on your preferences: remote, hybrid, or on-site.",
+                    "ar": "اختر مهامك بناءً على تفضيلاتك: عن بعد، هجين، أو في الموقع."
+                }
+            },
+            "premium_network": {
+                "title": {
+                    "fr": "Réseau d'Elite",
+                    "en": "Elite Network",
+                    "ar": "شبكة النخبة"
+                },
+                "desc": {
+                    "fr": "Rejoignez une communauté de freelances hautement qualifiés et partagez vos expertises.",
+                    "en": "Join a community of highly qualified freelancers and share your expertise.",
+                    "ar": "انضم إلى مجتمع من المستقلين المؤهلين تأهيلاً عالياً وشارك خبراتك."
+                }
+            },
+            "smart_profile": {
+                "title": {
+                    "fr": "Profil Intelligent",
+                    "en": "Smart Profile",
+                    "ar": "ملف تعريف ذكي"
+                },
+                "desc": {
+                    "fr": "Un profil dynamique qui évolue avec vos expériences et met en valeur votre potentiel.",
+                    "en": "A dynamic profile that evolves with your experiences and highlights your potential.",
+                    "ar": "ملف تعريف ديناميكي يتطور مع خبراتك ويسلط الضوء على إمكاناتك."
+                }
+            },
+            "tracking": {
+                "title": {
+                    "fr": "Suivi Simplifié",
+                    "en": "Simplified Tracking",
+                    "ar": "تتبع مبسط"
+                },
+                "desc": {
+                    "fr": "Suivez l'état de vos candidatures et communiquez facilement avec les recruteurs.",
+                    "en": "Track the status of your applications and communicate easily with recruiters.",
+                    "ar": "تتبع حالة طلباتك وتواصل بسهولة مع مسؤولي التوظيف."
+                }
+            }
+        }
+    },
+    "features_freelancer": {
+        "heading": {
+            "badge": {
+                "fr": "UNIVERS TALENTS",
+                "en": "TALENT UNIVERSE",
+                "ar": "عالم المواهب"
+            },
+            "title": {
+                "fr": "Liberté & Opportunités",
+                "en": "Freedom & Opportunities",
+                "ar": "الحرية والفرص"
+            },
+            "description": {
+                "fr": "Gérez votre activité freelance en toute simplicité avec nos outils IA dédiés.",
+                "en": "Manage your freelance business with ease using our dedicated AI tools.",
+                "ar": "أدر عملك المستقل بسهولة باستخدام أدوات الذكاء الاصطناعي المخصصة لدينا."
+            }
+        },
+        "items": {
+            "mission_hub": {
+                "title": {
+                    "fr": "Hub de Missions",
+                    "en": "Mission Hub",
+                    "ar": "مركز المهام"
+                },
+                "desc": {
+                    "fr": "Accédez à des missions exclusives adaptées à votre profil freelance.",
+                    "en": "Access exclusive missions tailored to your freelance profile.",
+                    "ar": "الوصول إلى مهام حصرية مصممة لملف تعريف العمل المستقل الخاص بك."
+                }
+            },
+            "automated_billing": {
+                "title": {
+                    "fr": "Facturation Auto",
+                    "en": "Auto Billing",
+                    "ar": "الفواتير التلقائية"
+                },
+                "desc": {
+                    "fr": "Générez vos factures et suivez vos paiements sans effort.",
+                    "en": "Generate your invoices and track your payments effortlessly.",
+                    "ar": "أنشئ فواتيرك وتتبع مدفوعاتك دون عناء."
+                }
+            },
+            "tech_community": {
+                "title": {
+                    "fr": "Communauté Tech",
+                    "en": "Tech Community",
+                    "ar": "مجتمع التقنية"
+                },
+                "desc": {
+                    "fr": "Rejoignez un réseau de freelances passionnés par l'innovation.",
+                    "en": "Join a network of freelancers passionate about innovation.",
+                    "ar": "انضم إلى شبكة من المستقلين الشغوفين بالابتكار."
+                }
+            },
+            "smart_alerts": {
+                "title": {
+                    "fr": "Alertes IA",
+                    "en": "AI Alerts",
+                    "ar": "تنبيهات الذكاء الاصطناعي"
+                },
+                "desc": {
+                    "fr": "Soyez prévenu instantanément dès qu'une mission correspond à vos critères.",
+                    "en": "Be notified instantly as soon as a mission matches your criteria.",
+                    "ar": "احصل على تنبيه فور تطابق أي مهمة مع معاييرك."
+                }
+            }
+        }
+    },
+    "gsap_showcase": {
+        "badge": {
+            "fr": "HR Solution v4.0",
+            "en": "HR Solution v4.0",
+            "ar": "حلول الموارد البشرية v4.0"
+        },
+        "title_part1": {
+            "fr": "OPEN",
+            "en": "OPEN",
+            "ar": "OPEN"
+        },
+        "title_highlight": {
+            "fr": "INNOVATION",
+            "en": "INNOVATION",
+            "ar": "INNOVATION"
+        },
+        "title_part2": {
+            "fr": "PARTNERS test test test test test",
+            "en": "PARTNERS",
+            "ar": "PARTNERS"
+        },
+        "description": {
+            "fr": "Plus qu'un cabinet de recrutement, nous sommes votre partenaire stratégique. Une solution RH propulsée par l'IA pour identifier, évaluer et intégrer les meilleurs talents technologiques.",
+            "en": "More than a recruitment agency, we are your strategic partner. An AI-powered HR solution to identify, assess, and integrate top tech talent.",
+            "ar": "أكثر من مجرد وكالة توظيف، نحن شريكك الاستراتيجي. حل للموارد البشرية مدعوم بالذكاء الاصطناعي لتحديد وتقييم ودمج أفضل المواهب التقنية."
+        },
+        "stack": {
+            "sourcing": {
+                "fr": "Sourcing IA",
+                "en": "AI Sourcing",
+                "ar": "التوظيف بالذكاء الاصطناعي"
+            },
+            "matching": {
+                "fr": "Matching 4.0",
+                "en": "Matching 4.0",
+                "ar": "المطابقة 4.0"
+            },
+            "analytics": {
+                "fr": "Analytics",
+                "en": "Analytics",
+                "ar": "التحليلات"
+            },
+            "compliance": {
+                "fr": "Compliance",
+                "en": "Compliance",
+                "ar": "الامتثال"
+            }
+        },
+        "visual": {
+            "core_logic": {
+                "fr": "Core Logic",
+                "en": "Core Logic",
+                "ar": "المنطق الأساسي"
+            },
+            "talent": {
+                "fr": "TALENT",
+                "en": "TALENT",
+                "ar": "المواهب"
+            },
+            "talent_desc": {
+                "fr": "Découvrez notre vivier d'experts tech. Chaque profil est rigoureusement évalué par notre algorithme de matching pour garantir une synergie parfaite avec vos besoins.",
+                "en": "Discover our pool of tech experts. Each profile is rigorously evaluated by our matching algorithm to ensure perfect synergy with your needs.",
+                "ar": "اكتشف مجموعة خبراء التقنية لدينا. يتم تقييم كل ملف شخصي بدقة بواسطة خوارزمية المطابقة لضمان التآزر المثالي مع احتياجاتك."
+            },
+            "company": {
+                "fr": "ENTREPRISE",
+                "en": "COMPANY",
+                "ar": "الشركة"
+            },
+            "company_desc": {
+                "fr": "Accélérez votre transformation digitale en collaborant avec les entreprises les plus innovantes. Nous connectons les porteurs de projets aux ressources idéales.",
+                "en": "Accelerate your digital transformation by collaborating with the most innovative companies. We connect project owners to the ideal resources.",
+                "ar": "سرع تحولك الرقمي من خلال التعاون مع أكثر الشركات ابتكاراً. نحن نربط أصحاب المشاريع بالموارد المثالية."
+            },
+            "cabinet": {
+                "fr": "CABINET CONSEIL",
+                "en": "CONSULTING FIRM",
+                "ar": "مكتب استشاري"
+            },
+            "cabinet_desc": {
+                "fr": "Bénéficiez d'un accompagnement stratégique sur mesure. Nos partenaires conseils vous aident à naviguer dans les défis technologiques complexes.",
+                "en": "Benefit from tailor-made strategic support. Our consulting partners help you navigate complex technological challenges.",
+                "ar": "استفد من الدعم الاستراتيجي المصمم خصيصاً. يساعدك شركاؤنا الاستشاريون في التغلب على التحديات التكنولوجية المعقدة."
+            },
+            "ghaya": {
+                "fr": "ESPACE GHAYA",
+                "en": "GHAYA SPACE",
+                "ar": "فضاء غاية"
+            },
+            "ghaya_desc": {
+                "fr": "L'agence AI de demain. Ghaya déploie des solutions d'intelligence artificielle sur mesure pour automatiser et optimiser vos processus métiers.",
+                "en": "The AI agency of tomorrow. Ghaya deploys tailor-made artificial intelligence solutions to automate and optimize your business processes.",
+                "ar": "وكالة الذكاء الاصطناعي للمستقبل. غاية تنشر حلول ذكاء اصطناعي مخصصة لأتمتة وتحسين عمليات عملك."
+            }
+        }
+    },
+    "synergy_dna": {
+        "badge": {
+            "fr": "Algorithme Génétique",
+            "en": "Genetic Algorithm",
+            "ar": "الخوارزمية الجينية"
+        },
+        "title": {
+            "fr": "L'ADN de la",
+            "en": "The DNA of",
+            "ar": "الحمض النووي لـ"
+        },
+        "title_highlight": {
+            "fr": "Performance",
+            "en": "Performance",
+            "ar": "الأداء"
+        },
+        "description": {
+            "fr": "Notre technologie ne se contente pas de lire des CV. Elle décode l'ADN professionnel de chaque consultant pour l'aligner parfaitement avec la culture et les objectifs de votre entreprise.",
+            "en": "Our technology doesn't just read CVs. It decodes the professional DNA of each consultant to perfectly align with your company's culture and goals.",
+            "ar": "تقنيتنا لا تقرأ السير الذاتية فقط. إنها تفك شفرة الحمض النووي المهني لكل مستشار لتتماشى تمامًا مع ثقافة وأهداف شركتك."
+        },
+        "btn_find": {
+            "fr": "Trouver ma Mission",
+            "en": "Find My Mission",
+            "ar": "ابحث عن مهمتي"
+        },
+        "cards": {
+            "expert": {
+                "fr": "MANAGER DE TRANSIT",
+                "en": "Transit Director",
+                "ar": "مدير العبور"
+            },
+            "competence": {
+                "fr": "Compétence",
+                "en": "Competence",
+                "ar": "كفاءة"
+            },
+            "match_confirmed": {
+                "fr": "Match Confirmé",
+                "en": "Match Confirmed",
+                "ar": "تطابق مؤكد"
+            },
+            "optimal_synergy": {
+                "fr": "Synergie Optimale",
+                "en": "Optimal Synergy",
+                "ar": "تآزر أمثل"
+            },
+            "long_mission": {
+                "fr": "Mission Longue Durée",
+                "en": "Long-Term Mission",
+                "ar": "مهمة طويلة الأمد"
+            },
+            "validated_expertise": {
+                "fr": "Expertise Validée",
+                "en": "Validated Expertise",
+                "ar": "الخبرة المعتمدة"
+            },
+            "technical_score": {
+                "fr": "98% Score Technique",
+                "en": "98% Technical Score",
+                "ar": "98% درجة فنية"
+            }
+        }
+    },
+    "how_it_works": {
+        "badge": {
+            "fr": "Processus",
+            "en": "Process",
+            "ar": "العملية"
+        },
+        "title": {
+            "fr": "Comment Ça Marche",
+            "en": "How It Works",
+            "ar": "كيف يعمل"
+        },
+        "description": {
+            "fr": "Un parcours simplifié vers votre prochaine opportunité majeure.",
+            "en": "A simplified path to your next major opportunity.",
+            "ar": "مسار مبسط نحو فرصتك الكبرى القادمة."
+        },
+        "steps": {
+            "step1": {
+                "title": {
+                    "fr": "Créer un Profil",
+                    "en": "Create Profile",
+                    "ar": "إنشاء ملف تعريف"
+                },
+                "desc": {
+                    "fr": "Inscrivez-vous comme entreprise ou consultant. Remplissez vos détails, compétences et préférences.",
+                    "en": "Register as a company or consultant. Fill in your details, skills, and preferences.",
+                    "ar": "سجل كشركة أو مستشار. املأ تفاصيلك ومهاراتك وتفضيلاتك."
+                }
+            },
+            "step2": {
+                "title": {
+                    "fr": "Publier ou Parcourir",
+                    "en": "Post or Browse",
+                    "ar": "نشر أو تصفح"
+                },
+                "desc": {
+                    "fr": "Les entreprises postent des missions, les consultants parcourent les offres. Notre système indexe tout.",
+                    "en": "Companies post missions, consultants browse offers. Our system indexes everything.",
+                    "ar": "تنشر الشركات المهام، ويتصفح المستشارون العروض. نظامنا يفهرس كل شيء."
+                }
+            },
+            "step3": {
+                "title": {
+                    "fr": "Matching IA",
+                    "en": "AI Matching",
+                    "ar": "المطابقة بالذكاء الاصطناعي"
+                },
+                "desc": {
+                    "fr": "Notre IA analyse les besoins et profils pour suggérer les meilleures correspondances instantanément.",
+                    "en": "Our AI analyzes needs and profiles to suggest the best matches instantly.",
+                    "ar": "يقوم الذكاء الاصطناعي لدينا بتحليل الاحتياجات والملفات الشخصية لاقتراح أفضل التطابقات على الفور."
+                }
+            },
+            "step4": {
+                "title": {
+                    "fr": "Connecter & Réussir",
+                    "en": "Connect & Succeed",
+                    "ar": "تواصل وانجح"
+                },
+                "desc": {
+                    "fr": "Examinez les matchs, connectez-vous directement et démarez votre collaboration.",
+                    "en": "Review matches, connect directly, and start your collaboration.",
+                    "ar": "راجع التطابقات، وتواصل مباشرة، وابدأ تعاونك."
+                }
+            }
+        }
+    },
+    "antigravity": {
+        "title_part1": {
+            "fr": "Télécharger",
+            "en": "Download",
+            "ar": "تحميل"
+        },
+        "title_highlight": {
+            "fr": "Antigravity",
+            "en": "Antigravity",
+            "ar": "Antigravity"
+        },
+        "title_part2": {
+            "fr": "pour Windows",
+            "en": "for Windows",
+            "ar": "لنظام التشغيل Windows"
+        },
+        "btn_x64": {
+            "fr": "Télécharger pour x64",
+            "en": "Download for x64",
+            "ar": "تحميل لـ x64"
+        },
+        "btn_arm64": {
+            "fr": "Télécharger pour ARM64",
+            "en": "Download for ARM64",
+            "ar": "تحميل لـ ARM64"
+        }
+    },
+    "footer": {
+        "brand_desc": {
+            "fr": "Plateforme RH propulsée par IA connectant les entreprises aux meilleurs consultants.",
+            "en": "AI-powered HR platform connecting companies with the best consultants.",
+            "ar": "منصة موارد بشرية مدعومة بالذكاء الاصطناعي تربط الشركات بأفضل المستشارين."
+        },
+        "sections": {
+            "for_companies": {
+                "title": {
+                    "fr": "Pour les Entreprises",
+                    "en": "For Companies",
+                    "ar": "للشركات"
+                }
+            },
+            "for_consultants": {
+                "title": {
+                    "fr": "Pour les Consultants",
+                    "en": "For Consultants",
+                    "ar": "للمستشارين"
+                }
+            },
+            "company": {
+                "title": {
+                    "fr": "Entreprise",
+                    "en": "Company",
+                    "ar": "الشركة"
+                }
+            }
+        },
+        "links": {
+            "register_company": {
+                "fr": "Inscrire Entreprise",
+                "en": "Register Company",
+                "ar": "تسجيل شركة"
+            },
+            "search_consultants": {
+                "fr": "Rechercher Consultants",
+                "en": "Search Consultants",
+                "ar": "البحث عن مستشارين"
+            },
+            "post_mission": {
+                "fr": "Poster Mission",
+                "en": "Post Mission",
+                "ar": "نشر مهمة"
+            },
+            "ai_space": {
+                "fr": "Espace IA",
+                "en": "AI Space",
+                "ar": "فضاء الذكاء الاصطناعي"
+            },
+            "register_profile": {
+                "fr": "Inscrire Profil",
+                "en": "Register Profile",
+                "ar": "تسجيل ملف شخصي"
+            },
+            "browse_missions": {
+                "fr": "Parcourir Missions",
+                "en": "Browse Missions",
+                "ar": "تصفح المهام"
+            },
+            "testimonials": {
+                "fr": "Témoignages",
+                "en": "Testimonials",
+                "ar": "الشهادات"
+            },
+            "resources": {
+                "fr": "Ressources",
+                "en": "Resources",
+                "ar": "الموارد"
+            },
+            "about": {
+                "fr": "À Propos",
+                "en": "About",
+                "ar": "حول"
+            },
+            "contact": {
+                "fr": "Contact",
+                "en": "Contact",
+                "ar": "اتصل بنا"
+            },
+            "admin_portal": {
+                "fr": "Portail Admin",
+                "en": "Admin Portal",
+                "ar": "بوابة المسؤول"
+            },
+            "privacy": {
+                "fr": "Politique de Confidentialité",
+                "en": "Privacy Policy",
+                "ar": "سياسة الخصوصية"
+            },
+            "terms": {
+                "fr": "Conditions d'Utilisation",
+                "en": "Terms of Use",
+                "ar": "شروط الاستخدام"
+            }
+        },
+        "copyright": {
+            "fr": "Tous droits réservés. Propulsé par l'IA.",
+            "en": "All rights reserved. Powered by AI.",
+            "ar": "جميع الحقوق محفوظة. مدعوم بالذكاء الاصطناعي."
+        }
+    },
+    "cta": {
+        "badge": {
+            "fr": "L'Avenir du Recrutement est Ici",
+            "en": "The Future of Recruitment is Here",
+            "ar": "مستقبل التوظيف هنا"
+        },
+        "title_part1": {
+            "fr": "Transformez Votre",
+            "en": "Transform Your",
+            "ar": "حول"
+        },
+        "title_highlight": {
+            "fr": "Recrutement",
+            "en": "Recruitment",
+            "ar": "توظيفك"
+        },
+        "title_part2": {
+            "fr": "avec l'Intelligence Artificielle",
+            "en": "with Artificial Intelligence",
+            "ar": "باستخدام الذكاء الاصطناعي"
+        },
+        "subtitle": {
+            "fr": "Rejoignez des milliers d'entreprises qui utilisent notre plateforme IA de pointe pour des décisions de recrutement plus intelligentes, plus rapides et plus précises.",
+            "en": "Join thousands of companies using our state-of-the-art AI platform for smarter, faster, and more accurate recruitment decisions.",
+            "ar": "انضم إلى آلاف الشركات التي تستخدم منصة الذكاء الاصطناعي المتطورة لدينا لاتخاذ قرارات توظيف أكثر ذكاءً وسرعة ودقة."
+        },
+        "btn_demo": {
+            "fr": "Essayer le Matching IA",
+            "en": "Try AI Matching",
+            "ar": "جرب المطابقة بالذكاء الاصطناعي"
+        },
+        "btn_start": {
+            "fr": "Commencer Gratuitement",
+            "en": "Start for Free",
+            "ar": "ابدأ مجانًا"
+        },
+        "trust_text": {
+            "fr": "Approuvé par les leaders de l'industrie",
+            "en": "Trusted by industry leaders",
+            "ar": "موثوق به من قبل قادة الصناعة"
+        },
+        "stats": {
+            "ai_accuracy": {
+                "label": {
+                    "fr": "Précision IA",
+                    "en": "AI Accuracy",
+                    "ar": "دقة الذكاء الاصطناعي"
+                }
+            },
+            "talents_connected": {
+                "label": {
+                    "fr": "Talents Connectés",
+                    "en": "Connected Talents",
+                    "ar": "مواهب متصلة"
+                }
+            },
+            "faster": {
+                "label": {
+                    "fr": "Plus Rapide",
+                    "en": "Faster",
+                    "ar": "أسرع"
+                }
+            },
+            "success_rate": {
+                "label": {
+                    "fr": "Taux de Réussite",
+                    "en": "Success Rate",
+                    "ar": "معدل النجاح"
+                }
+            }
+        }
+    }
+}

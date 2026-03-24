@@ -1,0 +1,4392 @@
+{
+  "domaines": [
+    {
+      "domaine": "Achats",
+      "metiers": [
+        {
+          "metier": "Acheteur",
+          "competences_cles": [
+            "Sourcing",
+            "négociation",
+            "gestion fournisseurs",
+            "contractualisation",
+            "analyse des coûts",
+            "stratégie d’achat"
+          ],
+          "outils": [
+            "Excel",
+            "SAP Ariba",
+            "Power BI",
+            "Notion",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Responsable Achats",
+          "competences_cles": [
+            "Pilotage de la politique achats",
+            "optimisation des coûts",
+            "gestion des équipes",
+            "stratégie fournisseurs"
+          ],
+          "outils": [
+            "SAP",
+            "Excel",
+            "Power BI",
+            "Coupa",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Acheteur Industriel",
+          "competences_cles": [
+            "Approvisionnement",
+            "analyse technique",
+            "qualité fournisseur",
+            "gestion logistique",
+            "appels d’offres"
+          ],
+          "outils": [
+            "SAP",
+            "Excel",
+            "Power BI",
+            "Oracle Procurement"
+          ]
+        },
+        {
+          "metier": "Acheteur Projet",
+          "competences_cles": [
+            "Sourcing pour projets spécifiques",
+            "gestion du budget",
+            "négociation technique et commerciale"
+          ],
+          "outils": [
+            "SAP",
+            "Excel",
+            "MS Project",
+            "Power BI",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Acheteur IT / Digital",
+          "competences_cles": [
+            "Achats de logiciels et services IT",
+            "gestion des contrats SaaS",
+            "sécurité et conformité"
+          ],
+          "outils": [
+            "Excel",
+            "SAP Ariba",
+            "Jira",
+            "Power BI",
+            "ServiceNow"
+          ]
+        },
+        {
+          "metier": "Acheteur International",
+          "competences_cles": [
+            "Gestion multi-devises",
+            "incoterms",
+            "négociation internationale",
+            "logistique export",
+            "analyse de risques"
+          ],
+          "outils": [
+            "Excel",
+            "SAP",
+            "Power BI",
+            "Tableau",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Acheteur Public",
+          "competences_cles": [
+            "Appels d’offres publics",
+            "rédaction de cahiers des charges",
+            "conformité réglementaire",
+            "marchés publics"
+          ],
+          "outils": [
+            "Excel",
+            "MarcoWeb",
+            "AWS AchatPublic",
+            "Power BI"
+          ]
+        },
+        {
+          "metier": "Category Manager",
+          "competences_cles": [
+            "Stratégie par catégorie",
+            "analyse du portefeuille",
+            "veille marché",
+            "segmentation fournisseurs"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "SAP Ariba",
+            "Anaplan",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Procurement Analyst",
+          "competences_cles": [
+            "Analyse des dépenses",
+            "reporting achats",
+            "suivi des KPIs",
+            "automatisation et data visualisation"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "SQL",
+            "Tableau",
+            "Python"
+          ]
+        },
+        {
+          "metier": "Approvisionneur",
+          "competences_cles": [
+            "Gestion des stocks",
+            "planification",
+            "suivi des commandes",
+            "relation fournisseurs",
+            "logistique"
+          ],
+          "outils": [
+            "SAP",
+            "Excel",
+            "Power BI",
+            "Oracle SCM",
+            "Trello"
+          ]
+        },
+        {
+          "metier": "Supplier Relationship Manager (SRM)",
+          "competences_cles": [
+            "Suivi des performances fournisseurs",
+            "audits",
+            "plans de progrès",
+            "gestion des risques fournisseurs"
+          ],
+          "outils": [
+            "SAP SRM",
+            "Power BI",
+            "Excel",
+            "SupplierOne",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Directeur Achats",
+          "competences_cles": [
+            "Définition de la stratégie achats",
+            "pilotage budgétaire",
+            "négociation grands comptes",
+            "gouvernance"
+          ],
+          "outils": [
+            "SAP",
+            "Power BI",
+            "Excel",
+            "Coupa",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Acheteur RSE / Durable",
+          "competences_cles": [
+            "Achats responsables",
+            "critères ESG",
+            "durabilité",
+            "analyse du cycle de vie produit (ACV)"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "EcoVadis",
+            "SAP Ariba",
+            "Notion"
+          ]
+        },
+        {
+          "metier": "Consultant en Achats",
+          "competences_cles": [
+            "Diagnostic de performance achats",
+            "refonte de processus",
+            "stratégie de sourcing",
+            "digitalisation"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "PowerPoint",
+            "SAP Ariba",
+            "Miro"
+          ]
+        },
+        {
+          "metier": "Acheteur Marketing / Communication",
+          "competences_cles": [
+            "Achats de prestations marketing",
+            "agences",
+            "médias",
+            "contrats de communication"
+          ],
+          "outils": [
+            "Excel",
+            "Power BI",
+            "SAP Ariba",
+            "PowerPoint",
+            "Notion"
+          ]
+        },
+        {
+          "metier": "Contract Manager",
+          "competences_cles": [
+            "Gestion et suivi des contrats",
+            "analyse de conformité",
+            "renégociation",
+            "archivage"
+          ],
+          "outils": [
+            "Excel",
+            "SAP CLM",
+            "Power BI",
+            "DocuSign",
+            "SharePoint"
+          ]
+        },
+        {
+          "metier": "Procurement Digital Transformation Lead",
+          "competences_cles": [
+            "Digitalisation des processus achats",
+            "automatisation",
+            "RPA",
+            "reporting intelligent"
+          ],
+          "outils": [
+            "UiPath",
+            "Power BI",
+            "Excel",
+            "SAP Ariba",
+            "Notion"
+          ]
+        },
+        {
+          "metier": "Acheteur Énergie",
+          "competences_cles": [
+            "Achat d’électricité",
+            "gaz",
+            "énergie renouvelable",
+            "négociation tarifaire",
+            "analyse de consommation"
+          ],
+          "outils": [
+            "Excel",
+            "Power BI",
+            "SAP",
+            "Anaplan",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Acheteur Santé / Pharmaceutique",
+          "competences_cles": [
+            "Achats médicaux",
+            "équipements",
+            "validation qualité",
+            "conformité réglementaire"
+          ],
+          "outils": [
+            "SAP",
+            "Excel",
+            "Power BI",
+            "Oracle SCM",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Analyste Performance Achats",
+          "competences_cles": [
+            "KPI",
+            "reporting",
+            "suivi de la performance fournisseurs",
+            "amélioration continue"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "Tableau",
+            "Python",
+            "SAP"
+          ]
+        }
+      ]
+    },
+    {
+      "domaine": "Conduite du changement",
+      "metiers": [
+        {
+          "métier": "Change Manager",
+          "compétences_clés": [
+            "Conduite du changement",
+            "communication interne",
+            "gestion des résistances",
+            "plan d’accompagnement",
+            "engagement des parties prenantes"
+          ],
+          "outils": [
+            "Prosci ADKAR",
+            "PowerPoint",
+            "Miro",
+            "Trello",
+            "Notion"
+          ]
+        },
+        {
+          "métier": "Consultant en Conduite du Changement",
+          "compétences_clés": [
+            "Diagnostic d’impact",
+            "stratégie de communication",
+            "accompagnement des transformations",
+            "gouvernance du changement"
+          ],
+          "outils": [
+            "PowerPoint",
+            "Excel",
+            "Miro",
+            "Notion",
+            "Power BI"
+          ]
+        },
+        {
+          "métier": "Change Management Lead",
+          "compétences_clés": [
+            "Pilotage global du changement",
+            "définition de la stratégie",
+            "animation de communautés",
+            "suivi des indicateurs de transformation"
+          ],
+          "outils": [
+            "Power BI",
+            "Notion",
+            "Miro",
+            "Jira",
+            "PowerPoint"
+          ]
+        },
+        {
+          "métier": "Organizational Change Manager",
+          "compétences_clés": [
+            "Transformation culturelle",
+            "adaptation des processus",
+            "gestion du leadership",
+            "communication managériale"
+          ],
+          "outils": [
+            "Miro",
+            "PowerPoint",
+            "Notion",
+            "Trello",
+            "360Learning"
+          ]
+        },
+        {
+          "métier": "Consultant Transformation & Change",
+          "compétences_clés": [
+            "Conduite du changement à grande échelle",
+            "digitalisation",
+            "formation",
+            "communication stratégique"
+          ],
+          "outils": [
+            "Miro",
+            "PowerPoint",
+            "Notion",
+            "Power BI",
+            "Excel"
+          ]
+        },
+        {
+          "métier": "Change Communication Specialist",
+          "compétences_clés": [
+            "Communication interne",
+            "storytelling du changement",
+            "rédaction de contenus",
+            "plan média interne"
+          ],
+          "outils": [
+            "Canva",
+            "PowerPoint",
+            "Notion",
+            "Miro",
+            "Outlook"
+          ]
+        },
+        {
+          "métier": "Change Project Manager",
+          "compétences_clés": [
+            "Planification",
+            "coordination des initiatives",
+            "suivi de l’avancement",
+            "reporting",
+            "gestion des risques"
+          ],
+          "outils": [
+            "MS Project",
+            "Trello",
+            "Power BI",
+            "Excel",
+            "PowerPoint"
+          ]
+        },
+        {
+          "métier": "Change Readiness Analyst",
+          "compétences_clés": [
+            "Analyse de la maturité au changement",
+            "mesure d’adhésion",
+            "reporting des indicateurs de readiness"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "Tableau",
+            "Notion",
+            "Miro"
+          ]
+        },
+        {
+          "métier": "Change Trainer / Formation Manager",
+          "compétences_clés": [
+            "Conception et déploiement de formations",
+            "e-learning",
+            "ateliers d’appropriation du changement"
+          ],
+          "outils": [
+            "360Learning",
+            "Moodle",
+            "Canva",
+            "PowerPoint",
+            "Notion"
+          ]
+        },
+        {
+          "métier": "Change Ambassador Program Lead",
+          "compétences_clés": [
+            "Animation d’un réseau d’ambassadeurs",
+            "culture du changement",
+            "communication engageante",
+            "suivi de la mobilisation"
+          ],
+          "outils": [
+            "Miro",
+            "Power BI",
+            "Notion",
+            "Canva",
+            "PowerPoint"
+          ]
+        },
+        {
+          "métier": "Digital Adoption Manager",
+          "compétences_clés": [
+            "Accompagnement à l’adoption d’outils digitaux",
+            "onboarding utilisateurs",
+            "formation et support continu"
+          ],
+          "outils": [
+            "WalkMe",
+            "Whatfix",
+            "Power BI",
+            "Excel",
+            "PowerPoint"
+          ]
+        },
+        {
+          "métier": "Change Analyst",
+          "compétences_clés": [
+            "Collecte de feedbacks",
+            "suivi d’indicateurs de transformation",
+            "mesure d’impact du changement"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "Tableau",
+            "Notion",
+            "Miro"
+          ]
+        },
+        {
+          "métier": "Transformation Consultant",
+          "compétences_clés": [
+            "Design d’organisation",
+            "accompagnement stratégique",
+            "pilotage du changement culturel et digital"
+          ],
+          "outils": [
+            "PowerPoint",
+            "Excel",
+            "Miro",
+            "Notion",
+            "Power BI"
+          ]
+        },
+        {
+          "métier": "HR Change Partner",
+          "compétences_clés": [
+            "Gestion des impacts RH",
+            "communication managériale",
+            "accompagnement du personnel",
+            "engagement"
+          ],
+          "outils": [
+            "Workday",
+            "Power BI",
+            "PowerPoint",
+            "Notion",
+            "Miro"
+          ]
+        },
+        {
+          "métier": "Change Facilitator",
+          "compétences_clés": [
+            "Animation d’ateliers collaboratifs",
+            "co-création de solutions",
+            "facilitation visuelle",
+            "écoute active"
+          ],
+          "outils": [
+            "Miro",
+            "Mural",
+            "Notion",
+            "PowerPoint",
+            "Trello"
+          ]
+        },
+        {
+          "métier": "Change Strategy Consultant",
+          "compétences_clés": [
+            "Élaboration de stratégies de transformation",
+            "alignement vision-valeurs",
+            "évaluation des impacts"
+          ],
+          "outils": [
+            "PowerPoint",
+            "Excel",
+            "Power BI",
+            "Miro",
+            "Notion"
+          ]
+        },
+        {
+          "métier": "Employee Engagement Manager",
+          "compétences_clés": [
+            "Mobilisation des collaborateurs",
+            "culture d’entreprise",
+            "mesure de l’engagement",
+            "communication"
+          ],
+          "outils": [
+            "CultureAmp",
+            "Power BI",
+            "Notion",
+            "PowerPoint",
+            "Excel"
+          ]
+        },
+        {
+          "métier": "Agile Change Coach",
+          "compétences_clés": [
+            "Coaching d’équipes",
+            "agilité organisationnelle",
+            "accompagnement des leaders",
+            "culture agile"
+          ],
+          "outils": [
+            "Jira",
+            "Trello",
+            "Miro",
+            "Notion",
+            "PowerPoint"
+          ]
+        },
+        {
+          "métier": "Change Communication Manager",
+          "compétences_clés": [
+            "Déploiement du plan de communication",
+            "gestion des canaux internes",
+            "coordination des actions"
+          ],
+          "outils": [
+            "Outlook",
+            "Power BI",
+            "Canva",
+            "PowerPoint",
+            "Notion"
+          ]
+        },
+        {
+          "métier": "Transformation Program Manager",
+          "compétences_clés": [
+            "Pilotage d’un portefeuille de projets de transformation",
+            "reporting global",
+            "gestion des interdépendances"
+          ],
+          "outils": [
+            "Power BI",
+            "Jira",
+            "Excel",
+            "PowerPoint",
+            "Notion"
+          ]
+        }
+      ]
+    },
+    {
+      "domaine": "Conformité",
+      "metiers": [
+        {
+          "metier": "Compliance Officer / Responsable Conformité",
+          "competences_cles": [
+            "Supervision du dispositif de conformité",
+            "veille réglementaire",
+            "conformité interne et externe",
+            "gestion des risques"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "SAP GRC",
+            "Notion",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Analyste Conformité",
+          "competences_cles": [
+            "Contrôle KYC/AML",
+            "analyse des transactions",
+            "veille réglementaire",
+            "reporting",
+            "suivi des alertes"
+          ],
+          "outils": [
+            "Actimize",
+            "Excel",
+            "Power BI",
+            "SAS",
+            "Python"
+          ]
+        },
+        {
+          "metier": "AML / CFT Analyst (Anti-Money Laundering / Counter Financing of Terrorism)",
+          "competences_cles": [
+            "Surveillance des transactions",
+            "détection des anomalies",
+            "déclaration TRACFIN",
+            "gestion des alertes"
+          ],
+          "outils": [
+            "Actimize",
+            "SAS",
+            "Power BI",
+            "Excel",
+            "Dow Jones Risk & Compliance"
+          ]
+        },
+        {
+          "metier": "Risk & Compliance Manager",
+          "competences_cles": [
+            "Évaluation des risques",
+            "conformité réglementaire",
+            "mise en place de politiques internes",
+            "contrôle des procédures"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "SAP GRC",
+            "ISO 37001 Tools",
+            "Notion"
+          ]
+        },
+        {
+          "metier": "Sanctions Screening Specialist",
+          "competences_cles": [
+            "Vérification des listes de sanctions (OFAC",
+            "UE",
+            "ONU)",
+            "filtrage des transactions",
+            "analyse des correspondances"
+          ],
+          "outils": [
+            "Fircosoft",
+            "Dow Jones",
+            "World-Check",
+            "Excel",
+            "Power BI"
+          ]
+        },
+        {
+          "metier": "KYC Analyst",
+          "competences_cles": [
+            "Vérification d’identité",
+            "due diligence client",
+            "revue périodique",
+            "documentation et archivage"
+          ],
+          "outils": [
+            "Excel",
+            "Power BI",
+            "World-Check",
+            "LexisNexis",
+            "Salesforce"
+          ]
+        },
+        {
+          "metier": "Compliance Data Analyst",
+          "competences_cles": [
+            "Analyse de données de conformité",
+            "détection d’anomalies",
+            "automatisation de reporting",
+            "suivi d’indicateurs"
+          ],
+          "outils": [
+            "Python",
+            "SQL",
+            "Power BI",
+            "Excel",
+            "Tableau"
+          ]
+        },
+        {
+          "metier": "Regulatory Compliance Officer",
+          "competences_cles": [
+            "Veille réglementaire (Bâle III",
+            "MiFID II",
+            "GDPR",
+            "LCB-FT)",
+            "reporting aux autorités",
+            "audits internes"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "RegTech Tools",
+            "SAP",
+            "Word"
+          ]
+        },
+        {
+          "metier": "Financial Crime Compliance Officer",
+          "competences_cles": [
+            "Prévention de la fraude",
+            "lutte contre la corruption",
+            "analyses transactionnelles",
+            "conformité internationale"
+          ],
+          "outils": [
+            "Actimize",
+            "SAS",
+            "Power BI",
+            "Excel",
+            "Oracle GRC"
+          ]
+        },
+        {
+          "metier": "Ethics & Compliance Officer",
+          "competences_cles": [
+            "Gouvernance éthique",
+            "politiques anticorruption",
+            "sensibilisation",
+            "conformité au code de conduite"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "Convercent",
+            "Notion",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Internal Control Officer",
+          "competences_cles": [
+            "Vérification des processus internes",
+            "évaluation des risques",
+            "audits",
+            "conformité opérationnelle"
+          ],
+          "outils": [
+            "Excel",
+            "SAP Audit Management",
+            "Power BI",
+            "ACL",
+            "PowerPoint"
+          ]
+        },
+        {
+          "metier": "Compliance Project Manager",
+          "competences_cles": [
+            "Gestion de projets de mise en conformité",
+            "pilotage d’équipes transverses",
+            "transformation des processus"
+          ],
+          "outils": [
+            "Jira",
+            "Power BI",
+            "Excel",
+            "PowerPoint",
+            "Confluence"
+          ]
+        },
+        {
+          "metier": "Data Protection Officer (DPO)",
+          "competences_cles": [
+            "Conformité RGPD",
+            "gouvernance des données",
+            "sensibilisation",
+            "gestion des violations de données"
+          ],
+          "outils": [
+            "OneTrust",
+            "Collibra",
+            "Excel",
+            "Power BI",
+            "Word"
+          ]
+        },
+        {
+          "metier": "Compliance Monitoring Analyst",
+          "competences_cles": [
+            "Contrôles périodiques",
+            "audits de conformité",
+            "reporting aux régulateurs",
+            "suivi des plans d’action"
+          ],
+          "outils": [
+            "Power BI",
+            "Excel",
+            "ACL",
+            "Tableau",
+            "Notion"
+          ]
+        },
+        {
+          "metier": "Anti-Bribery & Corruption Specialist",
+          "competences_cles": [
+            "Mise en œuvre de programmes anticorruption",
+            "cartographie des risques",
+            "reporting de conformité"
+          ],
+          "outils": [
+            "SAP GRC",
+            "Excel",
+            "Power BI",
+            "Notion",
+            "ISO 37001 Tools"
+          ]
+        },
+        {
+          "metier": "RegTech Implementation Specialist",
+          "competences_cles": [
+            "Digitalisation de la conformité",
+            "automatisation de reporting",
+            "intégration d’outils RegTech"
+          ],
+          "outils": [
+            "Python",
+            "Power BI",
+            "UiPath",
+            "Excel",
+            "SQL"
+          ]
+        },
+        {
+          "metier": "Policy & Governance Manager",
+          "competences_cles": [
+            "Rédaction de politiques internes",
+            "conformité réglementaire",
+            "supervision des contrôles"
+          ],
+          "outils": [
+            "Word",
+            "PowerPoint",
+            "Notion",
+            "Excel",
+            "Power BI"
+          ]
+        },
+        {
+          "metier": "OFAC / Sanctions Compliance Officer",
+          "competences_cles": [
+            "Veille OFAC",
+            "filtrage des contreparties",
+            "interprétation des règlements",
+            "reporting"
+          ],
+          "outils": [
+            "Fircosoft",
+            "Dow Jones",
+            "World-Check",
+            "Excel",
+            "Power BI"
+          ]
+        },
+        {
+          "metier": "Fraud Prevention Analyst",
+          "competences_cles": [
+            "Détection de fraudes",
+            "analyse comportementale",
+            "alertes automatiques",
+            "investigation"
+          ],
+          "outils": [
+            "Python",
+            "SAS",
+            "Power BI",
+            "Excel",
+            "Actimize"
+          ]
+        },
+        {
+          "metier": "Compliance Trainer / Awareness Specialist",
+          "competences_cles": [
+            "Formation et sensibilisation des employés",
+            "élaboration de modules e-learning",
+            "culture conformité"
+          ],
+          "outils": [
+            "360Learning",
+            "PowerPoint",
+            "Notion",
+            "Canva",
+            "Moodle"
+          ]
+        }
+      ]
+    },
+
+    {
+  "domaine": "Excellence Opérationnelle",
+  "metiers": [
+    {
+      "metier": "Consultant Lean Six Sigma",
+      "competences_cles": [
+        "Diagnostic de performance",
+        "cartographie des processus",
+        "réduction des gaspillages",
+        "analyse des causes racines",
+        "amélioration continue"
+      ],
+      "outils": [
+        "Minitab",
+        "Power BI",
+        "Excel",
+        "Visio",
+        "Lucidchart"
+      ]
+    },
+    {
+      "metier": "Responsable Amélioration Continue",
+      "competences_cles": [
+        "Pilotage de chantiers Lean",
+        "animation de workshops Kaizen",
+        "gestion du changement",
+        "suivi des KPIs",
+        "standardisation des processus"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "Trello",
+        "Notion",
+        "PowerPoint"
+      ]
+    },
+    {
+      "metier": "Black Belt Lean Six Sigma",
+      "competences_cles": [
+        "Projets DMAIC",
+        "analyse statistique avancée",
+        "modélisation",
+        "formation Green Belts",
+        "accompagnement des directions"
+      ],
+      "outils": [
+        "Minitab",
+        "JMP",
+        "Power BI",
+        "Excel avancé",
+        "Python"
+      ]
+    },
+    {
+      "metier": "Green Belt Lean Six Sigma",
+      "competences_cles": [
+        "Optimisation de processus",
+        "résolution de problèmes",
+        "collecte de données",
+        "mise en œuvre de solutions rapides"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "Minitab",
+        "Trello",
+        "Notion"
+      ]
+    },
+    {
+      "metier": "Responsable Excellence Opérationnelle",
+      "competences_cles": [
+        "Définition de la stratégie d’amélioration",
+        "gouvernance Lean",
+        "culture de la performance",
+        "pilotage multi-sites"
+      ],
+      "outils": [
+        "Power BI",
+        "SAP",
+        "Excel",
+        "Tableau",
+        "PowerPoint"
+      ]
+    },
+    {
+      "metier": "Consultant en Performance Industrielle",
+      "competences_cles": [
+        "Lean manufacturing",
+        "TPM",
+        "SMED",
+        "maintenance productive",
+        "pilotage d’indicateurs de production"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "MES",
+        "SAP",
+        "Visio"
+      ]
+    },
+    {
+      "metier": "Project Manager en Transformation Opérationnelle",
+      "competences_cles": [
+        "Gestion de projets stratégiques",
+        "plan de transformation",
+        "coordination d’équipes",
+        "gestion du changement"
+      ],
+      "outils": [
+        "MS Project",
+        "Power BI",
+        "Trello",
+        "Notion",
+        "Confluence"
+      ]
+    },
+    {
+      "metier": "Operational Excellence Analyst",
+      "competences_cles": [
+        "Collecte et analyse de données de performance",
+        "reporting",
+        "automatisation",
+        "identification de goulots d’étranglement"
+      ],
+      "outils": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Tableau"
+      ]
+    },
+    {
+      "metier": "Business Process Manager",
+      "competences_cles": [
+        "Cartographie",
+        "optimisation et automatisation des processus métiers",
+        "standardisation",
+        "documentation"
+      ],
+      "outils": [
+        "Bizagi",
+        "Signavio",
+        "Visio",
+        "Power Automate",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Responsable Supply Chain Excellence",
+      "competences_cles": [
+        "Optimisation logistique",
+        "Lean supply chain",
+        "pilotage des stocks",
+        "planification",
+        "S&OP"
+      ],
+      "outils": [
+        "SAP",
+        "Power BI",
+        "Excel",
+        "Anaplan",
+        "Tableau"
+      ]
+    },
+    {
+      "metier": "Industrial Performance Engineer",
+      "competences_cles": [
+        "Analyse OEE",
+        "amélioration des flux",
+        "méthodes industrielles",
+        "ergonomie et sécurité"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "SAP",
+        "MES",
+        "AutoCAD"
+      ]
+    },
+    {
+      "metier": "Operational Risk Manager",
+      "competences_cles": [
+        "Évaluation des risques",
+        "conformité",
+        "plan de continuité",
+        "analyse des incidents",
+        "audit interne"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "ISO 9001 Tools",
+        "Logiciel GRC"
+      ]
+    },
+    {
+      "metier": "Quality Manager / Responsable Qualité",
+      "competences_cles": [
+        "Management de la qualité",
+        "ISO 9001/14001",
+        "audits internes",
+        "satisfaction client",
+        "amélioration continue"
+      ],
+      "outils": [
+        "QMS",
+        "Excel",
+        "Power BI",
+        "Visio",
+        "Audit Software"
+      ]
+    },
+    {
+      "metier": "Kaizen Facilitator / Animateur Amélioration Continue",
+      "competences_cles": [
+        "Animation d’ateliers",
+        "sensibilisation aux outils Lean",
+        "implication du personnel",
+        "suivi d’actions"
+      ],
+      "outils": [
+        "Excel",
+        "PowerPoint",
+        "Miro",
+        "Notion",
+        "Trello"
+      ]
+    },
+    {
+      "metier": "Continuous Improvement Engineer",
+      "competences_cles": [
+        "Mesure de la performance",
+        "suivi des indicateurs",
+        "identification de leviers d’optimisation",
+        "pilotage de chantiers"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "Minitab",
+        "Notion",
+        "Tableau"
+      ]
+    },
+    {
+      "metier": "Process Automation Specialist",
+      "competences_cles": [
+        "Automatisation des tâches",
+        "RPA",
+        "optimisation des flux administratifs",
+        "intégration d’outils"
+      ],
+      "outils": [
+        "UiPath",
+        "Power Automate",
+        "Blue Prism",
+        "Python",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Operational Strategy Consultant",
+      "competences_cles": [
+        "Diagnostic stratégique",
+        "définition de plans de performance",
+        "pilotage d’initiatives globales"
+      ],
+      "outils": [
+        "PowerPoint",
+        "Excel",
+        "Power BI",
+        "Notion",
+        "Miro"
+      ]
+    },
+    {
+      "metier": "Change Management Consultant",
+      "competences_cles": [
+        "Conduite du changement",
+        "communication interne",
+        "gestion des résistances",
+        "plan d’accompagnement"
+      ],
+      "outils": [
+        "Prosci ADKAR",
+        "PowerPoint",
+        "Trello",
+        "Notion",
+        "Miro"
+      ]
+    },
+    {
+      "metier": "Performance & KPIs Manager",
+      "competences_cles": [
+        "Définition d’indicateurs",
+        "data visualisation",
+        "tableaux de bord",
+        "pilotage de la performance globale"
+      ],
+      "outils": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "SQL",
+        "Looker"
+      ]
+    },
+    {
+      "metier": "Operational Excellence Director",
+      "competences_cles": [
+        "Vision stratégique",
+        "leadership",
+        "gouvernance Lean",
+        "alignement entre performance et culture d’entreprise"
+      ],
+      "outils": [
+        "Power BI",
+        "SAP",
+        "PowerPoint",
+        "Tableau",
+        "Excel"
+      ]
+    }
+  ]
+},
+{
+  "domaine": "Finance",
+  "metiers": [
+    {
+      "metier": "Analyste Financier",
+      "competences_cles": [
+        "Analyse de bilans",
+        "évaluation d’entreprises",
+        "modélisation financière",
+        "valorisation (DCF",
+        "comparables)",
+        "reporting"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "Bloomberg",
+        "FactSet",
+        "VBA"
+      ]
+    },
+    {
+      "metier": "Contrôleur de Gestion",
+      "competences_cles": [
+        "Budget",
+        "prévisions",
+        "écarts",
+        "analyse de performance",
+        "tableaux de bord",
+        "contrôle des coûts"
+      ],
+      "outils": [
+        "Excel",
+        "SAP",
+        "Power BI",
+        "Anaplan",
+        "Hyperion"
+      ]
+    },
+    {
+      "metier": "Auditeur Financier",
+      "competences_cles": [
+        "Audit des comptes",
+        "vérification des procédures",
+        "contrôle interne",
+        "normes IFRS",
+        "consolidation"
+      ],
+      "outils": [
+        "Excel",
+        "ACL",
+        "SAP",
+        "CaseWare",
+        "PowerPoint"
+      ]
+    },
+    {
+      "metier": "Comptable",
+      "competences_cles": [
+        "Tenue des comptes",
+        "rapprochements bancaires",
+        "déclarations fiscales",
+        "gestion des écritures"
+      ],
+      "outils": [
+        "Sage",
+        "Cegid",
+        "SAP",
+        "Excel",
+        "QuickBooks"
+      ]
+    },
+    {
+      "metier": "Trésorier / Cash Manager",
+      "competences_cles": [
+        "Gestion de trésorerie",
+        "prévisions de cash-flow",
+        "financement court terme",
+        "gestion des risques de liquidité"
+      ],
+      "outils": [
+        "Kyriba",
+        "Excel",
+        "Power BI",
+        "SAP TRM",
+        "Swift"
+      ]
+    },
+    {
+      "metier": "Analyste M&A",
+      "competences_cles": [
+        "Évaluation d’entreprises",
+        "modélisation LBO",
+        "due diligence",
+        "synergies",
+        "pitchbooks"
+      ],
+      "outils": [
+        "Excel",
+        "PowerPoint",
+        "FactSet",
+        "PitchBook",
+        "Refinitiv"
+      ]
+    },
+    {
+      "metier": "Analyste en Private Equity",
+      "competences_cles": [
+        "Analyse de sociétés cibles",
+        "modélisation financière",
+        "valorisation",
+        "suivi de portefeuille"
+      ],
+      "outils": [
+        "Excel",
+        "PowerPoint",
+        "Preqin",
+        "Refinitiv",
+        "VBA"
+      ]
+    },
+    {
+      "metier": "Analyste en Asset Management",
+      "competences_cles": [
+        "Suivi de portefeuilles",
+        "allocation d’actifs",
+        "performance et risque",
+        "analyse de marché"
+      ],
+      "outils": [
+        "Bloomberg",
+        "Excel",
+        "Morningstar",
+        "Power BI",
+        "Python"
+      ]
+    },
+    {
+      "metier": "Analyste Risques Financiers",
+      "competences_cles": [
+        "Mesure du risque de crédit",
+        "risque marché",
+        "VaR",
+        "stress tests",
+        "réglementation Bâle III"
+      ],
+      "outils": [
+        "Python",
+        "R",
+        "SAS",
+        "Power BI",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Responsable Comptable",
+      "competences_cles": [
+        "Supervision de la comptabilité",
+        "clôtures mensuelles",
+        "reporting financier",
+        "conformité légale"
+      ],
+      "outils": [
+        "SAP",
+        "Sage",
+        "Excel",
+        "Power BI",
+        "Cegid"
+      ]
+    },
+    {
+      "metier": "Credit Analyst",
+      "competences_cles": [
+        "Analyse du risque de contrepartie",
+        "notation interne",
+        "suivi de portefeuille",
+        "scoring"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "Moody’s Risk Analyst",
+        "Python"
+      ]
+    },
+    {
+      "metier": "Trader",
+      "competences_cles": [
+        "Analyse des marchés",
+        "exécution d’ordres",
+        "gestion des positions",
+        "contrôle du risque"
+      ],
+      "outils": [
+        "Bloomberg Terminal",
+        "Refinitiv Eikon",
+        "Python",
+        "Excel",
+        "VBA"
+      ]
+    },
+    {
+      "metier": "Analyste Quantitatif (Quant)",
+      "competences_cles": [
+        "Modélisation stochastique",
+        "pricing d’options",
+        "algorithmes de trading",
+        "calibration de modèles"
+      ],
+      "outils": [
+        "Python",
+        "C++",
+        "R",
+        "MATLAB",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Risk Manager",
+      "competences_cles": [
+        "Pilotage du dispositif de gestion des risques",
+        "conformité réglementaire",
+        "stress testing"
+      ],
+      "outils": [
+        "Power BI",
+        "SAS",
+        "Python",
+        "Bloomberg",
+        "SQL"
+      ]
+    },
+    {
+      "metier": "Analyste ESG / Finance Durable",
+      "competences_cles": [
+        "Analyse d’impact environnemental",
+        "critères ESG",
+        "reporting extra-financier",
+        "notation durable"
+      ],
+      "outils": [
+        "MSCI ESG Manager",
+        "Power BI",
+        "Excel",
+        "Sustainalytics"
+      ]
+    },
+    {
+      "metier": "Auditeur Interne",
+      "competences_cles": [
+        "Contrôle interne",
+        "gestion des risques opérationnels",
+        "conformité",
+        "audit des processus"
+      ],
+      "outils": [
+        "ACL",
+        "SAP Audit Management",
+        "Power BI",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Analyste en Banque d’Investissement",
+      "competences_cles": [
+        "Levées de fonds",
+        "fusions-acquisitions",
+        "ECM/DCM",
+        "modélisation et valorisation"
+      ],
+      "outils": [
+        "Excel",
+        "PowerPoint",
+        "Bloomberg",
+        "Refinitiv",
+        "VBA"
+      ]
+    },
+    {
+      "metier": "Consultant en Finance Transformation",
+      "competences_cles": [
+        "Digitalisation des fonctions financières",
+        "automatisation",
+        "optimisation des processus"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "SAP",
+        "UiPath",
+        "Anaplan"
+      ]
+    },
+    {
+      "metier": "Actuaire",
+      "competences_cles": [
+        "Modélisation des risques",
+        "tarification",
+        "probabilités",
+        "tables de mortalité",
+        "prévoyance"
+      ],
+      "outils": [
+        "R",
+        "Python",
+        "SAS",
+        "Excel",
+        "Prophet"
+      ]
+    },
+    {
+      "metier": "Analyste Crédit",
+      "competences_cles": [
+        "Analyse financière des entreprises",
+        "notation",
+        "prévisions",
+        "modélisation du risque"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "Bloomberg",
+        "Moody’s",
+        "SQL"
+      ]
+    }
+  ]
+},
+    {
+  "domaine": "Intelligence Artificielle",
+  "metiers": [
+    {
+      "metier": "Data Scientist",
+      "competences_cles": [
+        "Analyse statistique",
+        "modélisation",
+        "machine learning supervisé et non supervisé",
+        "feature engineering",
+        "interprétation de modèles"
+      ],
+      "outils": [
+        "Python",
+        "R",
+        "Scikit-learn",
+        "TensorFlow",
+        "Power BI",
+        "Jupyter"
+      ]
+    },
+    {
+      "metier": "Machine Learning Engineer",
+      "competences_cles": [
+        "Déploiement de modèles",
+        "MLOps",
+        "automatisation",
+        "optimisation",
+        "pipelines IA",
+        "fine-tuning"
+      ],
+      "outils": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "MLflow",
+        "Docker",
+        "FastAPI",
+        "Kubernetes"
+      ]
+    },
+    {
+      "metier": "Deep Learning Engineer",
+      "competences_cles": [
+        "Réseaux de neurones profonds",
+        "CNN",
+        "RNN",
+        "LSTM",
+        "transformers",
+        "vision et NLP"
+      ],
+      "outils": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "Hugging Face",
+        "CUDA"
+      ]
+    },
+    {
+      "metier": "NLP Engineer",
+      "competences_cles": [
+        "Traitement automatique du langage",
+        "vectorisation",
+        "embeddings",
+        "LLMs",
+        "évaluation de modèles linguistiques"
+      ],
+      "outils": [
+        "Python",
+        "spaCy",
+        "NLTK",
+        "Hugging Face Transformers",
+        "LangChain",
+        "Ollama"
+      ]
+    },
+    {
+      "metier": "Computer Vision Engineer",
+      "competences_cles": [
+        "Reconnaissance d’images",
+        "détection d’objets",
+        "segmentation",
+        "OCR",
+        "IA embarquée"
+      ],
+      "outils": [
+        "OpenCV",
+        "PyTorch",
+        "TensorFlow",
+        "YOLO",
+        "Detectron2",
+        "OpenVINO"
+      ]
+    },
+    {
+      "metier": "AI Research Scientist",
+      "competences_cles": [
+        "Recherche fondamentale",
+        "conception d’architectures",
+        "expérimentation",
+        "publications",
+        "veille technologique"
+      ],
+      "outils": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "LaTeX",
+        "Git",
+        "Arxiv",
+        "JAX"
+      ]
+    },
+    {
+      "metier": "MLOps Engineer",
+      "competences_cles": [
+        "Industrialisation de modèles",
+        "CI/CD IA",
+        "monitoring",
+        "déploiement scalable"
+      ],
+      "outils": [
+        "Docker",
+        "MLflow",
+        "Airflow",
+        "Kubeflow",
+        "AWS Sagemaker",
+        "Azure ML"
+      ]
+    },
+    {
+      "metier": "AI Product Manager",
+      "competences_cles": [
+        "Gestion de produits IA",
+        "alignement business-tech",
+        "cadrage fonctionnel",
+        "éthique et gouvernance IA"
+      ],
+      "outils": [
+        "Notion",
+        "Jira",
+        "PowerPoint",
+        "Miro",
+        "Figma",
+        "Confluence"
+      ]
+    },
+    {
+      "metier": "AI Ethics Specialist",
+      "competences_cles": [
+        "Biais algorithmiques",
+        "équité",
+        "explicabilité",
+        "transparence",
+        "conformité RGPD"
+      ],
+      "outils": [
+        "Explainable AI Tools",
+        "Fairlearn",
+        "SHAP",
+        "LIME",
+        "Elicit",
+        "Alteryx"
+      ]
+    },
+    {
+      "metier": "AI Solutions Architect",
+      "competences_cles": [
+        "Conception d’architectures IA",
+        "intégration cloud",
+        "scalabilité",
+        "sécurité et coûts"
+      ],
+      "outils": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "Docker",
+        "Terraform"
+      ]
+    },
+    {
+      "metier": "AI Consultant / Strategy Advisor",
+      "competences_cles": [
+        "Diagnostic IA",
+        "roadmap stratégique",
+        "transformation des processus",
+        "gouvernance data"
+      ],
+      "outils": [
+        "PowerPoint",
+        "Excel",
+        "Notion",
+        "Miro",
+        "Dataiku",
+        "Power BI"
+      ]
+    },
+    {
+      "metier": "AI Trainer / Prompt Engineer",
+      "competences_cles": [
+        "Création de prompts",
+        "tuning de modèles",
+        "gestion de corpus",
+        "génération de contenu"
+      ],
+      "outils": [
+        "ChatGPT",
+        "Ollama",
+        "LangChain",
+        "LlamaIndex",
+        "PromptLayer"
+      ]
+    },
+    {
+      "metier": "Reinforcement Learning Engineer",
+      "competences_cles": [
+        "Environnements RL",
+        "politiques",
+        "reward functions",
+        "Q-learning",
+        "simulation"
+      ],
+      "outils": [
+        "Python",
+        "Gymnasium",
+        "TensorFlow",
+        "Stable Baselines3",
+        "PyTorch"
+      ]
+    },
+    {
+      "metier": "Robotics AI Engineer",
+      "competences_cles": [
+        "Perception",
+        "contrôle",
+        "planification",
+        "navigation autonome",
+        "apprentissage par renforcement"
+      ],
+      "outils": [
+        "ROS",
+        "C++",
+        "Python",
+        "OpenCV",
+        "Gazebo",
+        "TensorFlow"
+      ]
+    },
+    {
+      "metier": "Data Engineer for AI",
+      "competences_cles": [
+        "Collecte",
+        "préparation et transformation de données massives pour l’entraînement IA"
+      ],
+      "outils": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Airflow",
+        "Hadoop",
+        "Snowflake",
+        "BigQuery"
+      ]
+    },
+    {
+      "metier": "AI Evaluation Specialist",
+      "competences_cles": [
+        "Évaluation des modèles (ROUGE",
+        "BLEU",
+        "BERTScore)",
+        "benchmarking",
+        "validation qualité"
+      ],
+      "outils": [
+        "Python",
+        "Hugging Face Evaluate",
+        "scikit-learn",
+        "Pandas",
+        "Weights & Biases"
+      ]
+    },
+    {
+      "metier": "AI Infrastructure Engineer",
+      "competences_cles": [
+        "Optimisation GPU",
+        "parallélisation",
+        "déploiement distribué",
+        "monitoring de modèles"
+      ],
+      "outils": [
+        "NVIDIA CUDA",
+        "TensorRT",
+        "Docker",
+        "Kubernetes",
+        "Ray Serve"
+      ]
+    },
+    {
+      "metier": "Generative AI Engineer",
+      "competences_cles": [
+        "IA générative (texte",
+        "image",
+        "audio",
+        "vidéo)",
+        "fine-tuning",
+        "RAG",
+        "multimodalité"
+      ],
+      "outils": [
+        "LangChain",
+        "LlamaIndex",
+        "PyTorch",
+        "Stable Diffusion",
+        "Ollama",
+        "OpenAI API"
+      ]
+    },
+    {
+      "metier": "AI Teacher / Educator",
+      "competences_cles": [
+        "Conception de cours",
+        "vulgarisation",
+        "évaluation des apprenants",
+        "pédagogie IA"
+      ],
+      "outils": [
+        "Python",
+        "Jupyter",
+        "Canva",
+        "Notion",
+        "Google Colab",
+        "PowerPoint"
+      ]
+    },
+    {
+      "metier": "AI Policy & Governance Expert",
+      "competences_cles": [
+        "Régulation IA",
+        "conformité légale",
+        "cadre européen (AI Act)",
+        "sécurité des modèles"
+      ],
+      "outils": [
+        "AI Risk Frameworks",
+        "ISO 42001",
+        "Policy Tools",
+        "RGPD Compliance Kits"
+      ]
+    }
+  ]
+},
+{
+  "domaine": "IT",
+  "metiers": [
+    {
+      "metier": "Développeur Full-Stack",
+      "competences_cles": [
+        "Développement front-end et back-end",
+        "APIs REST",
+        "bases de données",
+        "tests",
+        "CI/CD"
+      ],
+      "outils": [
+        "JavaScript",
+        "Python",
+        "Node.js",
+        "React",
+        "Docker",
+        "Git",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "metier": "Développeur Back-End",
+      "competences_cles": [
+        "Conception d’architectures",
+        "microservices",
+        "API",
+        "gestion de la sécurité et des performances"
+      ],
+      "outils": [
+        "Java",
+        "Python",
+        "Go",
+        "Spring Boot",
+        "Django",
+        "FastAPI",
+        "SQL"
+      ]
+    },
+    {
+      "metier": "Développeur Front-End",
+      "competences_cles": [
+        "Intégration web",
+        "responsive design",
+        "UX/UI",
+        "frameworks JavaScript",
+        "accessibilité"
+      ],
+      "outils": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Vue.js",
+        "Figma"
+      ]
+    },
+    {
+      "metier": "DevOps Engineer",
+      "competences_cles": [
+        "Automatisation",
+        "intégration continue",
+        "déploiement",
+        "supervision",
+        "sécurité cloud"
+      ],
+      "outils": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "metier": "Data Engineer",
+      "competences_cles": [
+        "Collecte",
+        "transformation et stockage des données",
+        "data pipelines",
+        "ETL",
+        "optimisation"
+      ],
+      "outils": [
+        "Python",
+        "SQL",
+        "Airflow",
+        "Spark",
+        "Hadoop",
+        "AWS Glue",
+        "BigQuery"
+      ]
+    },
+    {
+      "metier": "Data Scientist",
+      "competences_cles": [
+        "Analyse statistique",
+        "machine learning",
+        "deep learning",
+        "visualisation et modélisation"
+      ],
+      "outils": [
+        "Python",
+        "R",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Power BI",
+        "Jupyter"
+      ]
+    },
+    {
+      "metier": "Machine Learning Engineer",
+      "competences_cles": [
+        "Déploiement de modèles",
+        "MLOps",
+        "optimisation",
+        "pipelines IA",
+        "fine-tuning de modèles"
+      ],
+      "outils": [
+        "Python",
+        "MLflow",
+        "TensorFlow",
+        "PyTorch",
+        "Docker",
+        "Kubernetes",
+        "FastAPI"
+      ]
+    },
+    {
+      "metier": "Cloud Engineer",
+      "competences_cles": [
+        "Architecture cloud",
+        "sécurité",
+        "scalabilité",
+        "infrastructure as code"
+      ],
+      "outils": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "Ansible",
+        "Docker",
+        "Linux"
+      ]
+    },
+    {
+      "metier": "Cybersecurity Analyst",
+      "competences_cles": [
+        "Sécurité réseau",
+        "gestion des vulnérabilités",
+        "SOC",
+        "IAM",
+        "forensic",
+        "conformité"
+      ],
+      "outils": [
+        "Wireshark",
+        "Splunk",
+        "Metasploit",
+        "Kali Linux",
+        "Nessus",
+        "SIEM"
+      ]
+    },
+    {
+      "metier": "Architecte Logiciel",
+      "competences_cles": [
+        "Design d’architecture logicielle",
+        "patterns",
+        "scalabilité",
+        "gouvernance technique"
+      ],
+      "outils": [
+        "UML",
+        "C4 Model",
+        "Java",
+        "C#",
+        "Cloud Architecture",
+        "Microservices"
+      ]
+    },
+    {
+      "metier": "Ingénieur Systèmes et Réseaux",
+      "competences_cles": [
+        "Administration serveurs",
+        "routage",
+        "pare-feu",
+        "supervision",
+        "virtualisation"
+      ],
+      "outils": [
+        "Linux",
+        "Cisco",
+        "VMware",
+        "Ansible",
+        "Nagios",
+        "Wireshark"
+      ]
+    },
+    {
+      "metier": "Administrateur Base de Données (DBA)",
+      "competences_cles": [
+        "Conception",
+        "optimisation",
+        "sauvegarde et restauration",
+        "sécurité des données"
+      ],
+      "outils": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "metier": "Chef de Projet IT",
+      "competences_cles": [
+        "Pilotage de projets",
+        "coordination d’équipes",
+        "gestion des risques",
+        "reporting"
+      ],
+      "outils": [
+        "Jira",
+        "Trello",
+        "MS Project",
+        "Confluence",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "metier": "Business Analyst IT",
+      "competences_cles": [
+        "Analyse des besoins",
+        "cahier des charges",
+        "modélisation des processus",
+        "test fonctionnel"
+      ],
+      "outils": [
+        "UML",
+        "BPMN",
+        "Jira",
+        "SQL",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "metier": "Consultant IT / Transformation Digitale",
+      "competences_cles": [
+        "Diagnostic",
+        "stratégie IT",
+        "conduite du changement",
+        "innovation technologique"
+      ],
+      "outils": [
+        "PowerPoint",
+        "Miro",
+        "Confluence",
+        "Notion",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Product Owner",
+      "competences_cles": [
+        "Gestion de backlog",
+        "priorisation",
+        "user stories",
+        "itérations Agile",
+        "vision produit"
+      ],
+      "outils": [
+        "Jira",
+        "Confluence",
+        "Notion",
+        "Figma",
+        "Miro",
+        "Trello"
+      ]
+    },
+    {
+      "metier": "Scrum Master",
+      "competences_cles": [
+        "Facilitation agile",
+        "gestion de sprint",
+        "coaching d’équipe",
+        "amélioration continue"
+      ],
+      "outils": [
+        "Jira",
+        "Trello",
+        "Miro",
+        "Notion",
+        "ClickUp"
+      ]
+    },
+    {
+      "metier": "Ingénieur IA / NLP",
+      "competences_cles": [
+        "Traitement du langage",
+        "modèles de langage",
+        "apprentissage profond",
+        "vectorisation"
+      ],
+      "outils": [
+        "Python",
+        "Transformers",
+        "Hugging Face",
+        "TensorFlow",
+        "PyTorch",
+        "Ollama"
+      ]
+    },
+    {
+      "metier": "Ingénieur Logiciel Embarqué",
+      "competences_cles": [
+        "Programmation bas niveau",
+        "systèmes temps réel",
+        "optimisation mémoire et performance"
+      ],
+      "outils": [
+        "C",
+        "C++",
+        "Python",
+        "FreeRTOS",
+        "Arduino",
+        "STM32"
+      ]
+    },
+    {
+      "metier": "Architecte Cloud / Solutions",
+      "competences_cles": [
+        "Design d’infrastructures hybrides",
+        "gouvernance cloud",
+        "sécurité",
+        "coûts et conformité"
+      ],
+      "outils": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "Kubernetes",
+        "Ansible"
+      ]
+    }
+  ]
+},
+{
+  "domaine": "Management",
+  "metiers": [
+    {
+      "metier": "Manager d’Équipe",
+      "competences_cles": [
+        "Leadership",
+        "communication",
+        "gestion de conflits",
+        "planification",
+        "suivi des performances",
+        "motivation"
+      ],
+      "outils": [
+        "Excel",
+        "PowerPoint",
+        "Trello",
+        "Notion",
+        "Power BI"
+      ]
+    },
+    {
+      "metier": "Chef de Projet",
+      "competences_cles": [
+        "Planification",
+        "coordination",
+        "budget",
+        "gestion des risques",
+        "reporting",
+        "gestion d’équipe"
+      ],
+      "outils": [
+        "MS Project",
+        "Jira",
+        "Trello",
+        "Power BI",
+        "Excel"
+      ]
+    },
+    {
+      "metier": "Directeur / Head of Department",
+      "competences_cles": [
+        "Vision stratégique",
+        "pilotage d’équipe",
+        "gouvernance",
+        "performance",
+        "accompagnement du changement"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "PowerPoint",
+        "SAP",
+        "Notion"
+      ]
+    },
+    {
+      "metier": "Manager Opérationnel",
+      "competences_cles": [
+        "Gestion quotidienne des activités",
+        "supervision des équipes",
+        "résolution de problèmes",
+        "reporting"
+      ],
+      "outils": [
+        "Excel",
+        "Power BI",
+        "Trello",
+        "Notion",
+        "Outlook"
+      ]
+    },
+    {
+      "metier": "Responsable de Business Unit",
+      "competences_cles": [
+        "Pilotage P&L",
+        "stratégie commerciale",
+        "gestion budgétaire",
+        "développement de marché"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "Salesforce",
+        "PowerPoint",
+        "Anaplan"
+      ]
+    },
+    {
+      "metier": "Consultant en Management",
+      "competences_cles": [
+        "Analyse organisationnelle",
+        "gestion du changement",
+        "accompagnement stratégique",
+        "amélioration de la performance"
+      ],
+      "outils": [
+        "PowerPoint",
+        "Excel",
+        "Power BI",
+        "Miro",
+        "Notion"
+      ]
+    },
+    {
+      "metier": "Scrum Master",
+      "competences_cles": [
+        "Animation agile",
+        "facilitation de sprint",
+        "amélioration continue",
+        "coordination d’équipe"
+      ],
+      "outils": [
+        "Jira",
+        "Trello",
+        "Notion",
+        "Miro",
+        "ClickUp"
+      ]
+    },
+    {
+      "metier": "Product Manager",
+      "competences_cles": [
+        "Roadmap produit",
+        "priorisation",
+        "user stories",
+        "coordination inter-équipes",
+        "suivi de KPIs"
+      ],
+      "outils": [
+        "Jira",
+        "Confluence",
+        "Figma",
+        "Notion",
+        "Power BI"
+      ]
+    },
+    {
+      "metier": "Project Management Officer (PMO)",
+      "competences_cles": [
+        "Suivi des projets",
+        "gouvernance",
+        "reporting",
+        "coordination",
+        "gestion de portefeuille"
+      ],
+      "outils": [
+        "MS Project",
+        "Power BI",
+        "Excel",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
+      "metier": "Manager RH",
+      "competences_cles": [
+        "Encadrement",
+        "évaluation des performances",
+        "communication interne",
+        "développement du leadership"
+      ],
+      "outils": [
+        "Workday",
+        "Power BI",
+        "Excel",
+        "Notion",
+        "360Learning"
+      ]
+    },
+    {
+      "metier": "Change Manager",
+      "competences_cles": [
+        "Conduite du changement",
+        "communication",
+        "engagement",
+        "formation",
+        "culture d’entreprise"
+      ],
+      "outils": [
+        "Miro",
+        "PowerPoint",
+        "Trello",
+        "Notion",
+        "Prosci ADKAR"
+      ]
+    },
+    {
+      "metier": "Manager Qualité",
+      "competences_cles": [
+        "Amélioration continue",
+        "gestion des audits",
+        "standardisation des processus",
+        "conformité ISO"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "QMS",
+        "Visio",
+        "Minitab"
+      ]
+    },
+    {
+      "metier": "Manager de Transition",
+      "competences_cles": [
+        "Gestion de crise",
+        "restructuration",
+        "accompagnement stratégique temporaire"
+      ],
+      "outils": [
+        "Power BI",
+        "Excel",
+        "PowerPoint",
+        "Notion",
+        "Trello"
+      ]
+    },
+    {
+      "metier": "Innovation Manager",
+      "competences_cles": [
+        "Veille technologique",
+        "design thinking",
+        "créativité",
+        "gestion de projets innovants"
+      ],
+      "outils": [
+        "Miro",
+        "Figma",
+        "Notion",
+        "PowerPoint",
+        "Airtable"
+      ]
+    },
+    {
+      "metier": "Manager Commercial",
+      "competences_cles": [
+        "Pilotage des ventes",
+        "stratégie commerciale",
+        "gestion de la performance",
+        "négociation"
+      ],
+      "outils": [
+        "Salesforce",
+        "HubSpot",
+        "Excel",
+        "Power BI",
+        "PowerPoint"
+      ]
+    },
+    {
+      "metier": "Manager de Production",
+      "competences_cles": [
+        "Gestion de la production",
+        "planification",
+        "optimisation des flux",
+        "Lean management"
+      ],
+      "outils": [
+        "SAP",
+        "Power BI",
+        "Excel",
+        "MES",
+        "Trello"
+      ]
+    },
+    {
+      "metier": "Executive Coach / Leadership Coach",
+      "competences_cles": [
+        "Accompagnement de dirigeants",
+        "communication interpersonnelle",
+        "intelligence émotionnelle"
+      ],
+      "outils": [
+        "Miro",
+        "Notion",
+        "PowerPoint",
+        "Trello",
+        "360Learning"
+      ]
+    },
+    {
+      "metier": "Management Consultant",
+      "competences_cles": [
+        "Diagnostic organisationnel",
+        "stratégie managériale",
+        "leadership transformationnel",
+        "accompagnement des dirigeants"
+      ],
+      "outils": [
+        "PowerPoint",
+        "Excel",
+        "Power BI",
+        "Miro",
+        "Notion"
+      ]
+    },
+    {
+      "metier": "Manager de la Transformation",
+      "competences_cles": [
+        "Pilotage de programmes",
+        "vision stratégique",
+        "coordination",
+        "alignement des parties prenantes"
+      ],
+      "outils": [
+        "Power BI",
+        "Jira",
+        "PowerPoint",
+        "Excel",
+        "Notion"
+      ]
+    },
+    {
+      "metier": "Chief Operating Officer (COO)",
+      "competences_cles": [
+        "Gestion des opérations",
+        "excellence opérationnelle",
+        "stratégie d’exécution",
+        "performance globale"
+      ],
+      "outils": [
+        "Power BI",
+        "SAP",
+        "Excel",
+        "PowerPoint",
+        "Tableau"
+      ]
+    }
+  ]
+},
+{
+    "domaine": "Marketing",
+    "metiers": [
+      {
+        "metier": "Chef de Produit / Product Marketer",
+        "competences_cles": [
+          "Études de marché",
+          "Positionnement",
+          "Gestion du cycle de vie",
+          "Pricing",
+          "Coordination inter-départements",
+          "Roadmap produit"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "Google Analytics",
+          "Trello",
+          "Asana",
+          "SurveyMonkey"
+        ]
+      },
+      {
+        "metier": "Chef de Marque / Brand Manager",
+        "competences_cles": [
+          "Identité de marque",
+          "Storytelling",
+          "Brand equity",
+          "Campagnes publicitaires",
+          "Gestion d’image et de réputation"
+        ],
+        "outils": [
+          "Canva",
+          "Adobe Suite",
+          "Brandwatch",
+          "Talkwalker",
+          "SimilarWeb"
+        ]
+      },
+      {
+        "metier": "Chargé(e) de Marketing / Marketing Officer",
+        "competences_cles": [
+          "Plan marketing",
+          "Création de supports",
+          "Événements",
+          "Gestion de prestataires",
+          "Suivi budgétaire"
+        ],
+        "outils": [
+          "Excel",
+          "Canva",
+          "Mailchimp",
+          "HubSpot",
+          "WordPress"
+        ]
+      },
+      {
+        "metier": "Digital Marketing Manager",
+        "competences_cles": [
+          "SEO",
+          "SEA",
+          "Social media",
+          "Email marketing",
+          "UX/UI",
+          "Data-driven strategy"
+        ],
+        "outils": [
+          "Google Ads",
+          "GA4",
+          "SEMrush",
+          "Ahrefs",
+          "HubSpot",
+          "Hootsuite"
+        ]
+      },
+      {
+        "metier": "Data Marketing Analyst",
+        "competences_cles": [
+          "Analyse de données",
+          "KPIs marketing",
+          "A/B testing",
+          "Reporting",
+          "Modélisation de conversion"
+        ],
+        "outils": [
+          "Python",
+          "SQL",
+          "Power BI",
+          "Tableau",
+          "Looker Studio",
+          "BigQuery"
+        ]
+      },
+      {
+        "metier": "Growth Marketer / Acquisition Manager",
+        "competences_cles": [
+          "Funnel AARRR",
+          "Automatisation",
+          "PPC",
+          "Copywriting",
+          "A/B testing",
+          "Growth hacking"
+        ],
+        "outils": [
+          "Zapier",
+          "HubSpot",
+          "Google Ads",
+          "Meta Ads",
+          "Hotjar",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "CRM Manager",
+        "competences_cles": [
+          "Segmentation",
+          "Emailing",
+          "Automatisation",
+          "Fidélisation",
+          "Rétention",
+          "Upsell/Cross-sell"
+        ],
+        "outils": [
+          "Salesforce",
+          "HubSpot",
+          "ActiveCampaign",
+          "Klaviyo",
+          "Sendinblue"
+        ]
+      },
+      {
+        "metier": "Social Media Manager",
+        "competences_cles": [
+          "Stratégie sociale",
+          "Gestion communauté",
+          "E-réputation",
+          "Création de contenu",
+          "UGC",
+          "Reporting"
+        ],
+        "outils": [
+          "Hootsuite",
+          "Buffer",
+          "Canva",
+          "CapCut",
+          "TikTok Creative Center",
+          "Sprout Social"
+        ]
+      },
+      {
+        "metier": "Content Marketer / Rédacteur SEO",
+        "competences_cles": [
+          "Rédaction SEO",
+          "Stratégie éditoriale",
+          "Storytelling",
+          "Blogging",
+          "Copywriting"
+        ],
+        "outils": [
+          "WordPress",
+          "Notion",
+          "Ahrefs",
+          "SEMrush",
+          "SurferSEO",
+          "Canva"
+        ]
+      },
+      {
+        "metier": "Responsable Communication / PR Manager",
+        "competences_cles": [
+          "Relations presse",
+          "Communication interne/externe",
+          "Événementiel",
+          "Crise",
+          "RSE"
+        ],
+        "outils": [
+          "Meltwater",
+          "Cision",
+          "Canva",
+          "Adobe Suite",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Influence Marketing Manager",
+        "competences_cles": [
+          "Sélection d’influenceurs",
+          "Négociation",
+          "Suivi ROI",
+          "Analyse de performance",
+          "Campagnes UGC"
+        ],
+        "outils": [
+          "Kolsquare",
+          "Upfluence",
+          "Hivency",
+          "Tagger",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Responsable Marketing Durable / RSE",
+        "competences_cles": [
+          "Green marketing",
+          "Communication responsable",
+          "Reporting ESG",
+          "Labels",
+          "Sensibilisation"
+        ],
+        "outils": [
+          "EcoVadis",
+          "Impact Track",
+          "Airtable",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Marketing Data Scientist / IA Marketer",
+        "competences_cles": [
+          "Analyse prédictive",
+          "Segmentation",
+          "NLP",
+          "IA générative",
+          "Recommandation produit"
+        ],
+        "outils": [
+          "Python",
+          "SQL",
+          "TensorFlow",
+          "Power BI",
+          "Dataiku",
+          "ChatGPT API"
+        ]
+      },
+      {
+        "metier": "Responsable Études et Insights",
+        "competences_cles": [
+          "Enquêtes",
+          "Panels",
+          "Analyses statistiques",
+          "Restitution d’insights",
+          "Études consommateurs"
+        ],
+        "outils": [
+          "SPSS",
+          "R",
+          "Power BI",
+          "Tableau",
+          "Excel",
+          "Qualtrics"
+        ]
+      }
+    ]
+  },
+  {
+    "domaine": "Organisation",
+    "metiers": [
+      {
+        "metier": "Consultant en Organisation",
+        "competences_cles": [
+          "Diagnostic organisationnel",
+          "cartographie des processus",
+          "optimisation des structures",
+          "conduite du changement"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Miro",
+          "Notion",
+          "Visio"
+        ]
+      },
+      {
+        "metier": "Responsable Organisation",
+        "competences_cles": [
+          "Amélioration de l’efficacité opérationnelle",
+          "pilotage de projets transverses",
+          "coordination inter-départements"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "PowerPoint",
+          "Trello",
+          "Jira"
+        ]
+      },
+      {
+        "metier": "Chef de Projet Organisation",
+        "competences_cles": [
+          "Planification",
+          "coordination",
+          "suivi d’indicateurs",
+          "gestion de la performance",
+          "reporting"
+        ],
+        "outils": [
+          "MS Project",
+          "Power BI",
+          "Excel",
+          "Notion",
+          "Confluence"
+        ]
+      },
+      {
+        "metier": "Business Process Manager",
+        "competences_cles": [
+          "Cartographie et optimisation des processus",
+          "standardisation",
+          "automatisation",
+          "documentation"
+        ],
+        "outils": [
+          "Bizagi",
+          "Signavio",
+          "Visio",
+          "Power Automate",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Consultant en Refonte des Processus",
+        "competences_cles": [
+          "Lean management",
+          "BPM",
+          "diagnostic de maturité",
+          "réduction des coûts et délais"
+        ],
+        "outils": [
+          "Power BI",
+          "Minitab",
+          "Visio",
+          "Excel",
+          "Lucidchart"
+        ]
+      },
+      {
+        "metier": "Organizational Change Manager",
+        "competences_cles": [
+          "Accompagnement au changement",
+          "communication interne",
+          "engagement des équipes",
+          "transformation culturelle"
+        ],
+        "outils": [
+          "Prosci ADKAR",
+          "Miro",
+          "PowerPoint",
+          "Trello",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Responsable Transformation Organisationnelle",
+        "competences_cles": [
+          "Pilotage de programmes",
+          "gouvernance du changement",
+          "culture de la performance"
+        ],
+        "outils": [
+          "Power BI",
+          "Jira",
+          "PowerPoint",
+          "Excel",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Project Management Officer (PMO)",
+        "competences_cles": [
+          "Support aux chefs de projet",
+          "gouvernance",
+          "suivi de portefeuille",
+          "reporting"
+        ],
+        "outils": [
+          "MS Project",
+          "Power BI",
+          "Excel",
+          "Jira",
+          "Confluence"
+        ]
+      },
+      {
+        "metier": "Organizational Design Consultant",
+        "competences_cles": [
+          "Conception d’organigrammes",
+          "définition de rôles",
+          "analyse des flux hiérarchiques"
+        ],
+        "outils": [
+          "Visio",
+          "Miro",
+          "Excel",
+          "PowerPoint",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Consultant en Excellence Opérationnelle",
+        "competences_cles": [
+          "Optimisation continue",
+          "Lean Six Sigma",
+          "animation d’ateliers Kaizen",
+          "indicateurs de performance"
+        ],
+        "outils": [
+          "Minitab",
+          "Power BI",
+          "Excel",
+          "Visio",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Process Automation Specialist",
+        "competences_cles": [
+          "Automatisation des processus administratifs",
+          "RPA",
+          "robotisation des flux"
+        ],
+        "outils": [
+          "UiPath",
+          "Blue Prism",
+          "Power Automate",
+          "Python",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Organizational Development Manager",
+        "competences_cles": [
+          "Gestion du capital humain",
+          "alignement RH-organisation",
+          "gestion des talents"
+        ],
+        "outils": [
+          "SAP SuccessFactors",
+          "Workday",
+          "Power BI",
+          "Excel",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Strategy & Organization Consultant",
+        "competences_cles": [
+          "Diagnostic stratégique et organisationnel",
+          "refonte de modèles opérationnels",
+          "conduite du changement"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Power BI",
+          "Miro",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Performance Manager",
+        "competences_cles": [
+          "Définition d’indicateurs",
+          "tableaux de bord",
+          "pilotage de la performance organisationnelle"
+        ],
+        "outils": [
+          "Power BI",
+          "Tableau",
+          "Excel",
+          "SQL",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Business Transformation Consultant",
+        "competences_cles": [
+          "Transformation d’entreprise",
+          "optimisation des processus métiers",
+          "digitalisation"
+        ],
+        "outils": [
+          "Power BI",
+          "Jira",
+          "Excel",
+          "PowerPoint",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Organizational Analyst",
+        "competences_cles": [
+          "Analyse des structures et processus internes",
+          "reporting organisationnel",
+          "analyse des écarts"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "Tableau",
+          "SQL",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Change & Culture Lead",
+        "competences_cles": [
+          "Transformation culturelle",
+          "communication stratégique",
+          "engagement des collaborateurs"
+        ],
+        "outils": [
+          "Miro",
+          "Notion",
+          "PowerPoint",
+          "Trello",
+          "360Learning"
+        ]
+      },
+      {
+        "metier": "Lean Organization Expert",
+        "competences_cles": [
+          "Simplification des processus",
+          "réduction des gaspillages",
+          "standardisation",
+          "Kaizen"
+        ],
+        "outils": [
+          "Minitab",
+          "Power BI",
+          "Excel",
+          "Visio",
+          "Lucidchart"
+        ]
+      },
+      {
+        "metier": "Operational Efficiency Consultant",
+        "competences_cles": [
+          "Amélioration de la productivité",
+          "diagnostic de performance",
+          "mise en œuvre de solutions"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "PowerPoint",
+          "Notion",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Organizational Architect",
+        "competences_cles": [
+          "Modélisation de structures complexes",
+          "conception de systèmes d’interactions organisationnelles"
+        ],
+        "outils": [
+          "Visio",
+          "Miro",
+          "PowerPoint",
+          "Notion",
+          "Lucidchart"
+        ]
+      }
+    ]
+  },
+{
+    "domaine": "PMO",
+    "metiers": [
+      {
+        "metier": "Project Management Officer (PMO)",
+        "competences_cles": [
+          "Gouvernance de projet",
+          "reporting",
+          "coordination",
+          "planification",
+          "suivi budgétaire",
+          "gestion documentaire",
+          "analyse de risques"
+        ],
+        "outils": [
+          "MS Project",
+          "Power BI",
+          "Excel",
+          "Jira",
+          "Confluence",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "PMO Stratégique",
+        "competences_cles": [
+          "Pilotage de portefeuille projets",
+          "alignement stratégique",
+          "indicateurs de performance",
+          "arbitrage de priorités",
+          "gouvernance"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "Anaplan",
+          "PowerPoint",
+          "SAP PPM"
+        ]
+      },
+      {
+        "metier": "PMO Financier",
+        "competences_cles": [
+          "Suivi budgétaire",
+          "analyse de rentabilité",
+          "prévisions financières",
+          "contrôle de gestion projet",
+          "ROI"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "SAP",
+          "Anaplan",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "PMO Opérationnel",
+        "competences_cles": [
+          "Suivi de l’avancement",
+          "gestion des ressources",
+          "planification",
+          "coordination inter-équipes",
+          "reporting"
+        ],
+        "outils": [
+          "MS Project",
+          "Jira",
+          "Trello",
+          "Power BI",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "PMO Transformation",
+        "competences_cles": [
+          "Pilotage du changement",
+          "communication",
+          "alignement stratégique",
+          "gestion des risques et dépendances"
+        ],
+        "outils": [
+          "Power BI",
+          "Miro",
+          "Notion",
+          "Jira",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "PMO IT / Digital",
+        "competences_cles": [
+          "Suivi de projets informatiques",
+          "coordination agile",
+          "gestion des livrables",
+          "automatisation du reporting"
+        ],
+        "outils": [
+          "Jira",
+          "Confluence",
+          "Power BI",
+          "ServiceNow",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "PMO de Programme",
+        "competences_cles": [
+          "Coordination multi-projets",
+          "suivi de planning global",
+          "reporting consolidé",
+          "gestion des ressources"
+        ],
+        "outils": [
+          "MS Project",
+          "Power BI",
+          "Excel",
+          "SAP PPM",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "PMO Performance",
+        "competences_cles": [
+          "Conception de tableaux de bord",
+          "analyse d’indicateurs",
+          "suivi des OKR/KPI",
+          "amélioration continue"
+        ],
+        "outils": [
+          "Power BI",
+          "Tableau",
+          "Excel",
+          "SQL",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "PMO Lean / Excellence Opérationnelle",
+        "competences_cles": [
+          "Amélioration des processus",
+          "standardisation",
+          "mesure de performance",
+          "Lean Six Sigma"
+        ],
+        "outils": [
+          "Minitab",
+          "Power BI",
+          "Excel",
+          "Visio",
+          "Lucidchart"
+        ]
+      },
+      {
+        "metier": "PMO Change Management",
+        "competences_cles": [
+          "Conduite du changement",
+          "communication interne",
+          "gestion des parties prenantes",
+          "formation"
+        ],
+        "outils": [
+          "Prosci ADKAR",
+          "Miro",
+          "PowerPoint",
+          "Notion",
+          "Trello"
+        ]
+      }
+    ]
+  },
+  {
+    "domaine": "RH",
+    "metiers": [
+      {
+        "metier": "Responsable RH / HR Manager",
+        "competences_cles": [
+          "Gestion des politiques RH",
+          "encadrement d’équipe",
+          "stratégie RH",
+          "conformité légale",
+          "développement organisationnel"
+        ],
+        "outils": [
+          "SIRH (SAP",
+          "Workday)",
+          "Excel",
+          "PowerPoint",
+          "Notion",
+          "Trello"
+        ]
+      },
+      {
+        "metier": "Chargé(e) de Recrutement / Talent Acquisition Specialist",
+        "competences_cles": [
+          "Sourcing",
+          "entretiens",
+          "onboarding",
+          "marque employeur",
+          "gestion des candidatures"
+        ],
+        "outils": [
+          "LinkedIn Recruiter",
+          "Welcome to the Jungle",
+          "Taleo",
+          "BambooHR",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Responsable Formation / Learning & Development Manager",
+        "competences_cles": [
+          "Analyse des besoins",
+          "ingénierie pédagogique",
+          "gestion du plan de formation",
+          "e-learning"
+        ],
+        "outils": [
+          "360Learning",
+          "Moodle",
+          "TalentLMS",
+          "Canva",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Gestionnaire de Paie",
+        "competences_cles": [
+          "Préparation et saisie des bulletins",
+          "gestion des cotisations sociales",
+          "veille légale",
+          "DSN"
+        ],
+        "outils": [
+          "Sage",
+          "ADP",
+          "PayFit",
+          "Excel",
+          "SILAE"
+        ]
+      },
+      {
+        "metier": "Responsable Relations Sociales",
+        "competences_cles": [
+          "Dialogue social",
+          "négociation collective",
+          "CSE",
+          "médiation",
+          "droit du travail"
+        ],
+        "outils": [
+          "Excel",
+          "PowerPoint",
+          "Droit du Travail (Code)",
+          "Outils internes RH"
+        ]
+      },
+      {
+        "metier": "HR Business Partner",
+        "competences_cles": [
+          "Alignement stratégie business-RH",
+          "gestion des talents",
+          "accompagnement des managers",
+          "conduite du changement"
+        ],
+        "outils": [
+          "Workday",
+          "SAP SuccessFactors",
+          "Power BI",
+          "Notion",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Responsable Rémunération et Avantages Sociaux",
+        "competences_cles": [
+          "Benchmark salarial",
+          "gestion des primes",
+          "avantages en nature",
+          "équité interne"
+        ],
+        "outils": [
+          "Excel avancé",
+          "Power BI",
+          "SAP HR",
+          "Anaplan"
+        ]
+      },
+      {
+        "metier": "Chargé(e) des Ressources Humaines",
+        "competences_cles": [
+          "Administration du personnel",
+          "gestion des absences",
+          "contrats",
+          "reporting RH"
+        ],
+        "outils": [
+          "Excel",
+          "SIRH",
+          "Outlook",
+          "Word",
+          "Trello"
+        ]
+      },
+      {
+        "metier": "Talent Manager",
+        "competences_cles": [
+          "Identification des hauts potentiels",
+          "plans de succession",
+          "mentoring",
+          "gestion de carrière"
+        ],
+        "outils": [
+          "Power BI",
+          "Notion",
+          "SAP HR",
+          "SuccessFactors"
+        ]
+      },
+      {
+        "metier": "Responsable Diversité & Inclusion",
+        "competences_cles": [
+          "Mise en œuvre des politiques DEI",
+          "sensibilisation",
+          "mesure d’impact",
+          "reporting social"
+        ],
+        "outils": [
+          "Power BI",
+          "Canva",
+          "Notion",
+          "Excel",
+          "CultureAmp"
+        ]
+      },
+      {
+        "metier": "HR Data Analyst",
+        "competences_cles": [
+          "Reporting RH",
+          "suivi des KPIs (turnover",
+          "absentéisme",
+          "diversité)",
+          "automatisation et visualisation"
+        ],
+        "outils": [
+          "Python",
+          "SQL",
+          "Power BI",
+          "Tableau",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Chief People Officer / DRH Groupe",
+        "competences_cles": [
+          "Vision stratégique RH",
+          "gouvernance",
+          "culture d’entreprise",
+          "performance sociale"
+        ],
+        "outils": [
+          "Workday",
+          "SAP",
+          "PowerPoint",
+          "Excel",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Responsable QVT (Qualité de Vie au Travail)",
+        "competences_cles": [
+          "Prévention des risques psychosociaux",
+          "bien-être",
+          "RSE",
+          "enquêtes internes"
+        ],
+        "outils": [
+          "CultureAmp",
+          "Notion",
+          "Excel",
+          "Power BI",
+          "FormTools"
+        ]
+      },
+      {
+        "metier": "Recruteur IT / Tech Recruiter",
+        "competences_cles": [
+          "Sourcing de profils techniques",
+          "assessment",
+          "gestion du cycle complet",
+          "communication technique"
+        ],
+        "outils": [
+          "LinkedIn Recruiter",
+          "Notion",
+          "Lever",
+          "Greenhouse",
+          "CodinGame Assess"
+        ]
+      },
+      {
+        "metier": "HR Digital Transformation Lead",
+        "competences_cles": [
+          "Automatisation RH",
+          "intégration SIRH",
+          "analytics RH",
+          "pilotage de projets digitaux"
+        ],
+        "outils": [
+          "Workday",
+          "Power BI",
+          "Notion",
+          "Jira",
+          "Zapier"
+        ]
+      },
+      {
+        "metier": "Responsable Mobilité Internationale",
+        "competences_cles": [
+          "Gestion des expatriations",
+          "fiscalité",
+          "contrats internationaux",
+          "coordination des visas"
+        ],
+        "outils": [
+          "Excel",
+          "SAP HR",
+          "SIRH",
+          "Mobility Tools"
+        ]
+      },
+      {
+        "metier": "Consultant RH",
+        "competences_cles": [
+          "Diagnostic RH",
+          "audit organisationnel",
+          "accompagnement du changement",
+          "restructuration"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Miro",
+          "Notion",
+          "Trello"
+        ]
+      },
+      {
+        "metier": "HR Legal Advisor / Juriste Social",
+        "competences_cles": [
+          "Droit du travail",
+          "contentieux",
+          "rédaction de contrats",
+          "conseil juridique interne"
+        ],
+        "outils": [
+          "Dalloz",
+          "LexisNexis",
+          "Excel",
+          "Word",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Employer Branding Manager",
+        "competences_cles": [
+          "Stratégie de marque employeur",
+          "communication RH",
+          "relations écoles",
+          "réseaux sociaux"
+        ],
+        "outils": [
+          "Canva",
+          "LinkedIn Campaign Manager",
+          "Hootsuite",
+          "Notion",
+          "Photoshop"
+        ]
+      },
+      {
+        "metier": "HR Project Manager",
+        "competences_cles": [
+          "Gestion de projets RH",
+          "planification",
+          "reporting",
+          "coordination entre pôles RH"
+        ],
+        "outils": [
+          "MS Project",
+          "Trello",
+          "Notion",
+          "Power BI",
+          "Excel"
+        ]
+      }
+    ]
+  },
+  {
+    "domaine": "Strategie",
+    "metiers": [
+      {
+        "metier": "Consultant en Stratégie",
+        "competences_cles": [
+          "Analyse sectorielle",
+          "diagnostic stratégique",
+          "recommandations",
+          "due diligence",
+          "business model",
+          "études de marché"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Power BI",
+          "Notion",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Strategic Analyst",
+        "competences_cles": [
+          "Analyse concurrentielle",
+          "veille stratégique",
+          "modélisation financière",
+          "synthèse de données",
+          "reporting"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "Tableau",
+          "SQL",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Business Strategy Manager",
+        "competences_cles": [
+          "Définition de la stratégie",
+          "alignement organisationnel",
+          "KPIs",
+          "pilotage du plan stratégique"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "PowerPoint",
+          "Notion",
+          "Trello"
+        ]
+      },
+      {
+        "metier": "Corporate Strategy Analyst",
+        "competences_cles": [
+          "Analyse des marchés",
+          "M&A",
+          "planification stratégique",
+          "veille concurrentielle",
+          "scénarios de croissance"
+        ],
+        "outils": [
+          "Excel",
+          "PowerPoint",
+          "FactSet",
+          "Bloomberg",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Management Consultant",
+        "competences_cles": [
+          "Conseil en organisation",
+          "stratégie d’entreprise",
+          "performance opérationnelle",
+          "digitalisation"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Power BI",
+          "Miro",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "M&A Consultant",
+        "competences_cles": [
+          "Fusions-acquisitions",
+          "valorisation",
+          "modélisation financière",
+          "synergies",
+          "intégration post-fusion"
+        ],
+        "outils": [
+          "Excel",
+          "PowerPoint",
+          "Refinitiv",
+          "PitchBook",
+          "Bloomberg"
+        ]
+      },
+      {
+        "metier": "Consultant en Transformation Stratégique",
+        "competences_cles": [
+          "Conduite du changement",
+          "gouvernance",
+          "pilotage de programmes",
+          "culture de performance"
+        ],
+        "outils": [
+          "Power BI",
+          "Jira",
+          "Notion",
+          "Excel",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Strategic Project Manager",
+        "competences_cles": [
+          "Gestion de projets stratégiques",
+          "coordination inter-départements",
+          "suivi des indicateurs"
+        ],
+        "outils": [
+          "Trello",
+          "Jira",
+          "PowerPoint",
+          "Excel",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Business Development Manager",
+        "competences_cles": [
+          "Développement de nouvelles activités",
+          "partenariats",
+          "expansion internationale",
+          "négociation"
+        ],
+        "outils": [
+          "Salesforce",
+          "PowerPoint",
+          "Excel",
+          "HubSpot",
+          "Power BI"
+        ]
+      },
+      {
+        "metier": "Innovation Strategist",
+        "competences_cles": [
+          "Veille technologique",
+          "design thinking",
+          "développement de modèles innovants",
+          "stratégie d’innovation"
+        ],
+        "outils": [
+          "Miro",
+          "Figma",
+          "Notion",
+          "PowerPoint",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Corporate Development Manager",
+        "competences_cles": [
+          "Croissance externe",
+          "partenariats",
+          "financement",
+          "évaluation de cibles stratégiques"
+        ],
+        "outils": [
+          "Excel",
+          "PowerPoint",
+          "FactSet",
+          "Bloomberg",
+          "Power BI"
+        ]
+      },
+      {
+        "metier": "Strategic Planning Officer",
+        "competences_cles": [
+          "Planification stratégique",
+          "suivi du plan d’entreprise",
+          "reporting de performance",
+          "modélisation"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "PowerPoint",
+          "Tableau",
+          "SQL"
+        ]
+      },
+      {
+        "metier": "Chief Strategy Officer (CSO)",
+        "competences_cles": [
+          "Définition de la vision à long terme",
+          "planification corporate",
+          "communication stratégique"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "PowerPoint",
+          "Notion",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Competitive Intelligence Analyst",
+        "competences_cles": [
+          "Veille concurrentielle",
+          "benchmark",
+          "analyse de tendances",
+          "rapports de veille"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "Crayon",
+          "SEMrush",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Strategy & Operations Consultant",
+        "competences_cles": [
+          "Optimisation de la performance",
+          "amélioration des processus",
+          "pilotage de KPIs"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "Minitab",
+          "PowerPoint",
+          "Tableau"
+        ]
+      },
+      {
+        "metier": "Consultant en Stratégie Digitale",
+        "competences_cles": [
+          "Transformation digitale",
+          "stratégie omnicanale",
+          "digitalisation du business model"
+        ],
+        "outils": [
+          "Power BI",
+          "HubSpot",
+          "Excel",
+          "Notion",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Strategy Analyst en Banque / Finance",
+        "competences_cles": [
+          "Études de marché financier",
+          "veille concurrentielle",
+          "optimisation des portefeuilles"
+        ],
+        "outils": [
+          "Excel",
+          "Power BI",
+          "Bloomberg",
+          "VBA",
+          "FactSet"
+        ]
+      },
+      {
+        "metier": "Consultant en Stratégie Durable / ESG",
+        "competences_cles": [
+          "Intégration RSE",
+          "impact social et environnemental",
+          "analyse d’impact",
+          "reporting ESG"
+        ],
+        "outils": [
+          "Power BI",
+          "Excel",
+          "Sustainalytics",
+          "EcoVadis",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Corporate Performance Manager",
+        "competences_cles": [
+          "Suivi de la performance stratégique",
+          "dashboards de pilotage",
+          "revue des OKRs"
+        ],
+        "outils": [
+          "Power BI",
+          "Tableau",
+          "Excel",
+          "Anaplan",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Strategy Associate (Cabinet de Conseil)",
+        "competences_cles": [
+          "Recherche",
+          "analyse quantitative",
+          "synthèse",
+          "présentation client",
+          "rédaction de slides"
+        ],
+        "outils": [
+          "Excel",
+          "PowerPoint",
+          "Notion",
+          "Power BI",
+          "Miro"
+        ]
+      }
+    ]
+  },{
+    "domaine": "Transformation Digitale",
+    "metiers": [
+      {
+        "metier": "Chief Digital Officer (CDO)",
+        "competences_cles": [
+          "Définition de la stratégie digitale",
+          "transformation globale",
+          "innovation",
+          "conduite du changement"
+        ],
+        "outils": [
+          "Power BI",
+          "Miro",
+          "Notion",
+          "Excel",
+          "PowerPoint"
+        ]
+      },
+      {
+        "metier": "Consultant en Transformation Digitale",
+        "competences_cles": [
+          "Diagnostic digital",
+          "roadmap de transformation",
+          "accompagnement du changement",
+          "automatisation"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Miro",
+          "Notion",
+          "Jira"
+        ]
+      },
+      {
+        "metier": "Digital Project Manager",
+        "competences_cles": [
+          "Gestion de projets numériques",
+          "coordination d’équipes",
+          "planification",
+          "reporting",
+          "déploiement d’outils"
+        ],
+        "outils": [
+          "Trello",
+          "Jira",
+          "Asana",
+          "Power BI",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Digital Transformation Manager",
+        "competences_cles": [
+          "Pilotage de programmes digitaux",
+          "alignement stratégique",
+          "agilité",
+          "innovation organisationnelle"
+        ],
+        "outils": [
+          "Power BI",
+          "SAP",
+          "Jira",
+          "PowerPoint",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Innovation Manager",
+        "competences_cles": [
+          "Veille technologique",
+          "design thinking",
+          "prototypage",
+          "gestion de l’innovation",
+          "collaboration inter-équipes"
+        ],
+        "outils": [
+          "Miro",
+          "Figma",
+          "Notion",
+          "Trello",
+          "Airtable"
+        ]
+      },
+      {
+        "metier": "Change Management Lead",
+        "competences_cles": [
+          "Conduite du changement",
+          "communication interne",
+          "formation",
+          "plan de transformation"
+        ],
+        "outils": [
+          "Prosci ADKAR",
+          "Miro",
+          "Notion",
+          "PowerPoint",
+          "Trello"
+        ]
+      },
+      {
+        "metier": "Digital Strategy Consultant",
+        "competences_cles": [
+          "Définition de la vision digitale",
+          "positionnement",
+          "transformation business",
+          "digitalisation des process"
+        ],
+        "outils": [
+          "PowerPoint",
+          "Excel",
+          "Notion",
+          "Miro",
+          "Power BI"
+        ]
+      },
+      {
+        "metier": "Automation & RPA Specialist",
+        "competences_cles": [
+          "Optimisation des processus",
+          "RPA",
+          "intégration des systèmes",
+          "automatisation intelligente"
+        ],
+        "outils": [
+          "UiPath",
+          "Blue Prism",
+          "Power Automate",
+          "Python",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Cloud Transformation Consultant",
+        "competences_cles": [
+          "Migration vers le cloud",
+          "stratégie multi-cloud",
+          "sécurité et gouvernance"
+        ],
+        "outils": [
+          "AWS",
+          "Azure",
+          "GCP",
+          "Terraform",
+          "Ansible"
+        ]
+      },
+      {
+        "metier": "Data Transformation Lead",
+        "competences_cles": [
+          "Architecture data-driven",
+          "gouvernance",
+          "intégration",
+          "valorisation des données"
+        ],
+        "outils": [
+          "Power BI",
+          "Snowflake",
+          "SQL",
+          "Python",
+          "Tableau"
+        ]
+      },
+      {
+        "metier": "Digital Workplace Manager",
+        "competences_cles": [
+          "Outils collaboratifs",
+          "gestion du télétravail",
+          "adoption digitale",
+          "cybersécurité des environnements"
+        ],
+        "outils": [
+          "Microsoft 365",
+          "Google Workspace",
+          "Notion",
+          "Slack",
+          "Zoom"
+        ]
+      },
+      {
+        "metier": "UX/UI Designer",
+        "competences_cles": [
+          "Recherche utilisateur",
+          "prototypage",
+          "ergonomie",
+          "design system",
+          "expérience client"
+        ],
+        "outils": [
+          "Figma",
+          "Adobe XD",
+          "Sketch",
+          "Miro",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Product Owner Digital",
+        "competences_cles": [
+          "Gestion du backlog",
+          "priorisation",
+          "itérations agiles",
+          "alignement produit-utilisateur"
+        ],
+        "outils": [
+          "Jira",
+          "Confluence",
+          "Notion",
+          "Figma",
+          "Miro"
+        ]
+      },
+      {
+        "metier": "Agile Coach",
+        "competences_cles": [
+          "Transformation agile",
+          "coaching d’équipes",
+          "mise en place de Scrum/Kanban",
+          "culture agile"
+        ],
+        "outils": [
+          "Jira",
+          "Trello",
+          "Miro",
+          "ClickUp",
+          "Notion"
+        ]
+      },
+      {
+        "metier": "Business Analyst Digital",
+        "competences_cles": [
+          "Analyse des besoins métiers",
+          "rédaction de user stories",
+          "intégration fonctionnelle"
+        ],
+        "outils": [
+          "UML",
+          "BPMN",
+          "Jira",
+          "Power BI",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "CRM Transformation Manager",
+        "competences_cles": [
+          "Déploiement de CRM",
+          "automatisation des parcours clients",
+          "intégration omnicanale"
+        ],
+        "outils": [
+          "Salesforce",
+          "HubSpot",
+          "Dynamics 365",
+          "Power BI",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Digital Marketing Transformation Lead",
+        "competences_cles": [
+          "Transformation des pratiques marketing",
+          "automatisation",
+          "stratégie omnicanale"
+        ],
+        "outils": [
+          "HubSpot",
+          "Google Analytics",
+          "Power BI",
+          "SEMrush",
+          "Zapier"
+        ]
+      },
+      {
+        "metier": "E-commerce Transformation Manager",
+        "competences_cles": [
+          "Digitalisation du parcours client",
+          "gestion de plateformes",
+          "optimisation de conversion"
+        ],
+        "outils": [
+          "Shopify",
+          "Magento",
+          "Google Analytics",
+          "Power BI",
+          "Hotjar"
+        ]
+      },
+      {
+        "metier": "AI & Data Transformation Consultant",
+        "competences_cles": [
+          "Implémentation de l’IA",
+          "valorisation des données",
+          "acculturation IA",
+          "automatisation intelligente"
+        ],
+        "outils": [
+          "Python",
+          "Power BI",
+          "Snowflake",
+          "LangChain",
+          "Excel"
+        ]
+      },
+      {
+        "metier": "Digital Culture & Upskilling Lead",
+        "competences_cles": [
+          "Formation digitale",
+          "acculturation",
+          "montée en compétences",
+          "sensibilisation aux outils numériques"
+        ],
+        "outils": [
+          "Moodle",
+          "360Learning",
+          "Notion",
+          "Miro",
+          "PowerPoint"
+        ]
+      }
+    ]
+  }
+
+  ]
+}

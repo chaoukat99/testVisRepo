@@ -119,7 +119,7 @@ export default function LyaAgenceAi() {
                     </div>
                     <SectionDivider />
                 </section>
-                <CTASection type="consultant" />
+                {/* <CTASection type="consultant" /> */}
             </main>
             <Footer />
         </div>

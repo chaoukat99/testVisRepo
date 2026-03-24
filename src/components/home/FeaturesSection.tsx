@@ -30,6 +30,7 @@ import {
   SearchCheck,
   ShieldCheck,
   Clock,
+  Headphones,
 } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -180,6 +181,12 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
       color: "from-green-500 to-emerald-400",
     },
     {
+      icon: Sparkles,
+      title: t('features_freelancer.items.smart_alerts.title'),
+      description: t('features_freelancer.items.smart_alerts.desc'),
+      color: "from-purple-400 to-indigo-500",
+    },
+    {
       icon: ShieldCheck,
       title: t('features_consultant.items.secure_payments.title'),
       description: t('features_consultant.items.secure_payments.desc'),
@@ -245,6 +252,12 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
       title: "Gestion d'Équipe",
       description: "Pilotez vos équipes de transitaires et coordonnez les actions avec les prestataires.",
       color: "from-orange-500 to-amber-500",
+    },
+    {
+      icon: Headphones,
+      title: "Support Logistique",
+      description: "Une assistance dédiée pour résoudre vos problématiques de transport en temps réel.",
+      color: "from-cyan-400 to-blue-500",
     },
   ];
 

@@ -14,7 +14,7 @@ const CompanyLanding = () => {
             <CircularNavbar />
             <main className="pt-0">
                 <FeaturesSection type="company" maxItems={5} />
-                <CTASection type="company" />
+                {/* <CTASection type="company" /> */}
             </main>
             <Footer />
         </div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Home, ArrowLeft } from "lucide-react";
-import { Navbar } from "@/components/layout/Navbar";
+import { CircularNavbar } from "@/components/layout/CircularNavbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 
@@ -9,8 +9,8 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="particles-bg" />
-      <Navbar />
-      <main className="pt-32 pb-24">
+      <CircularNavbar />
+      <main className="pt-40 pb-24">
         <div className="container px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

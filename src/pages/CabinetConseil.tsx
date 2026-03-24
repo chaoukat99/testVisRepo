@@ -91,7 +91,7 @@ export default function CabinetConseil() {
                     </div>
                     <SectionDivider />
                 </section>
-                <CTASection type="company" />
+                {/* <CTASection type="company" /> */}
             </main>
             <Footer />
         </div>

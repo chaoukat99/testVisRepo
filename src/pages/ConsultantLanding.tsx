@@ -14,7 +14,6 @@ const ConsultantLanding = () => {
             <CircularNavbar />
             <main className="pt-0">
                 <FeaturesSection type="consultant" maxItems={5} />
-                <CTASection type="consultant" />
             </main>
             <Footer />
         </div>

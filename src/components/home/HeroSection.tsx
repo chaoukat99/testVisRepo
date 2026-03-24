@@ -185,13 +185,23 @@ export function HeroSection({ type, topTitle, badgeText }: HeroSectionProps) {
 
         </motion.div>
 
-        {/* Scroll Indicator */}
+        {/* Scroll Indicator — mouse icon */}
         <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="pt-12 flex flex-col items-center gap-4 py-8"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.4, duration: 0.8 }}
+          className="pt-8 flex flex-col items-center gap-3"
         >
-          <div className="w-[1px] h-16 bg-gradient-to-b from-white/20 to-transparent" />
+          {/* Mouse outline */}
+          <div className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center pt-1.5 relative">
+            {/* Scrolling dot inside */}
+            <motion.div
+              animate={{ y: [0, 12, 0], opacity: [1, 0, 1] }}
+              transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
+              className="w-1 h-2 rounded-full bg-white/70"
+            />
+          </div>
+          <span className="text-[10px] uppercase tracking-[0.2em] text-white/30 font-medium">Scroll</span>
         </motion.div>
       </motion.div>
 

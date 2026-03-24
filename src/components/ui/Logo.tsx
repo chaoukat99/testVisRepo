@@ -5,9 +5,10 @@ interface LogoProps {
     className?: string;
     size?: "xs" | "sm" | "md" | "lg" | "xl" | "hero";
     animate?: boolean;
+    isFooter?: boolean;
 }
 
-export function Logo({ className, size = "md", animate = true }: LogoProps) {
+export function Logo({ className, size = "md", animate = true, isFooter = false }: LogoProps) {
     const sizes = {
         xs: "h-6 sm:h-8",
         sm: "h-10 sm:h-14",
@@ -19,28 +20,34 @@ export function Logo({ className, size = "md", animate = true }: LogoProps) {
 
     const content = (
         <>
+            {/* Show circleLogo on mobile header, or Logo3 on all footer views */}
             <img
-                src="/images/circleLogo.png"
+                src={isFooter ? "/images/Logo3.jpg" : "/images/circleLogo.png"}
                 alt="OpenIn Partners"
                 style={{ border: "none", backgroundColor: "transparent" }}
                 className={cn(
-                    "w-auto object-contain brightness-110 transition-all duration-300 sm:hidden",
+                    "w-auto object-contain brightness-110 transition-all duration-300",
+                    !isFooter ? "sm:hidden" : "", // only hidden on desktop if NOT in footer
                     "dark:invert-0 light:invert",
                     sizes[size],
                     className
                 )}
             />
-            <img
-                src="/images/LogoMetal22.png"
-                alt="OpenIn Partners"
-                style={{ border: "none", backgroundColor: "transparent" , marginTop: "3px"}}
-                className={cn(
-                    "w-auto object-contain brightness-110 transition-all duration-300 hidden sm:block",
-                    "dark:invert-0 light:invert",
-                    sizes[size],
-                    className
-                )}
-            />
+
+            {/* Metal Logo is ONLY shown on desktop when NOT in footer */}
+            {!isFooter && (
+                <img
+                    src="/images/LogoMetal22.png"
+                    alt="OpenIn Partners"
+                    style={{ border: "none", backgroundColor: "transparent", marginTop: "3px" }}
+                    className={cn(
+                        "w-auto object-contain brightness-110 transition-all duration-300 hidden sm:block",
+                        "dark:invert-0 light:invert",
+                        sizes[size],
+                        className
+                    )}
+                />
+            )}
         </>
     );
 

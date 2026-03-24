@@ -10,17 +10,26 @@ import { CTASection } from "@/components/home/CTASection";
 import { GSAPShowcase } from "@/components/home/GSAPShowcase";
 import { SynergyDNASection } from "@/components/home/SynergyDNASection";
 import { VideoIntro } from "@/components/ui/VideoIntro";
+import { useOnboardingStore } from "@/store/useOnboardingStore";
 
 const Index = () => {
+  const { setIntroActive } = useOnboardingStore();
+
   // Show intro only once per session
   const [showIntro, setShowIntro] = useState(() => {
-    return !sessionStorage.getItem("videoIntroSeen");
+    const active = !sessionStorage.getItem("videoIntroSeen");
+    return active;
   });
   const [introComplete, setIntroComplete] = useState(!showIntro);
+
+  useEffect(() => {
+    setIntroActive(showIntro);
+  }, [showIntro, setIntroActive]);
 
   const handleIntroComplete = () => {
     setShowIntro(false);
     setIntroComplete(true);
+    setIntroActive(false);
   };
 
   useEffect(() => {

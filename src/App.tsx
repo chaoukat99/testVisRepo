@@ -203,10 +203,9 @@ const App = () => {
     onPrevStep,
     endTour,
     currentStepIndex,
-    totalSteps
+    totalSteps,
+    isIntroActive
   } = useOnboardingStore();
-
-
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -214,15 +213,17 @@ const App = () => {
         <TaxonomyProvider>
           <ChatProvider>
             <TooltipProvider>
-              <AIAvatar
-                message={robotMessage}
-                position={robotPosition}
-                onNext={onNextStep || undefined}
-                onPrev={onPrevStep || undefined}
-                onClose={endTour}
-                currentStep={currentStepIndex}
-                totalSteps={totalSteps}
-              />
+              {!isIntroActive && (
+                <AIAvatar
+                  message={robotMessage}
+                  position={robotPosition}
+                  onNext={onNextStep || undefined}
+                  onPrev={onPrevStep || undefined}
+                  onClose={endTour}
+                  currentStep={currentStepIndex}
+                  totalSteps={totalSteps}
+                />
+              )}
               <Toaster />
               <Sonner />
               <div className="flex justify-end p-4 hidden">

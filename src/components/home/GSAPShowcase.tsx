@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { Brain, Network, Cpu, Zap, Activity, Sparkles, Code2, Database, Lock, Fingerprint, Users, Building2, Briefcase, Info } from "lucide-react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -7,11 +7,11 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionDivider } from "@/components/ui/SectionDivider";
 import { SectionGlow } from "@/components/ui/SectionGlow";
 import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+    DialogDescription,
 } from "@/components/ui/dialog";
 
 export const GSAPShowcase = () => {
@@ -53,9 +53,10 @@ export const GSAPShowcase = () => {
     }, { scope: containerRef });
 
     return (
-        <section ref={containerRef} className="relative py-32 overflow-hidden bg-background">
+        <section ref={containerRef} className="relative pt-0 pb-32 overflow-hidden bg-background">
+            <SectionDivider flip className="top-0 bottom-auto" fill="fill-background" />
             {/* Animated Background Lines */}
-            <div className="absolute inset-0 w-full h-full opacity-[0.03] pointer-events-none">
+            <div className="absolute inset-0 w-full h-full opacity-[0.08] pointer-events-none">
                 <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -66,7 +67,7 @@ export const GSAPShowcase = () => {
                 </svg>
             </div>
 
-            <div className="container relative z-10 px-6">
+            <div className="container relative z-10 px-6 -mt-20">
                 <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
 
                     {/* Left: Content Text */}
@@ -74,9 +75,7 @@ export const GSAPShowcase = () => {
                         style={{ y: yMove }}
                         className="lg:w-1/2 space-y-8"
                     >
-                     
-
-                        <h2 style={{fontSize:25}} className="text-2xl md:text-3xl lg:text-[40px] font-black tracking-tight leading-tight text-foreground flex flex-wrap gap-x-4">
+                        <h2 style={{ fontSize: 25 }} className="text-2xl md:text-3xl lg:text-[40px] font-black tracking-tight leading-tight text-foreground flex flex-wrap gap-x-4">
                             <span>{t('gsap_showcase.title_part1')}</span>
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
                                 {t('gsap_showcase.title_highlight')}

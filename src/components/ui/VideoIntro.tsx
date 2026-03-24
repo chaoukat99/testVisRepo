@@ -22,13 +22,17 @@ export const VideoIntro: React.FC<VideoIntroProps> = ({ onComplete }) => {
         }, 600);
     }, [isFadingOut, onComplete]);
 
-    // Auto-play and handle video end
     useEffect(() => {
         const video = videoRef.current;
         if (!video) return;
 
         const onEnded = () => handleFinish();
         video.addEventListener("ended", onEnded);
+
+        // Auto-finish after 3.5 seconds to make it shorter
+        const timer = setTimeout(() => {
+            handleFinish();
+        }, 3500);
 
         // Try to autoplay
         video.play().catch(() => {
@@ -38,6 +42,7 @@ export const VideoIntro: React.FC<VideoIntroProps> = ({ onComplete }) => {
 
         return () => {
             video.removeEventListener("ended", onEnded);
+            clearTimeout(timer);
         };
     }, [handleFinish]);
 

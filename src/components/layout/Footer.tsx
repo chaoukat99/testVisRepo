@@ -13,7 +13,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-3">
-              <Logo size="lg" />
+              <Logo size="lg" isFooter={true} />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
               {t('footer.brand_desc')}

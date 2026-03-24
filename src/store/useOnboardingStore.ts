@@ -16,6 +16,8 @@ interface OnboardingState {
     onNextStep: (() => void) | null;
     onPrevStep: (() => void) | null;
     setNavHandlers: (next: (() => void) | null, prev: (() => void) | null) => void;
+    isIntroActive: boolean;
+    setIntroActive: (active: boolean) => void;
 }
 
 export const useOnboardingStore = create<OnboardingState>((set) => ({
@@ -27,6 +29,8 @@ export const useOnboardingStore = create<OnboardingState>((set) => ({
     highlightedElement: null,
     onNextStep: null,
     onPrevStep: null,
+    isIntroActive: false,
+    setIntroActive: (active) => set({ isIntroActive: active }),
     startTour: (total) => set({ isTourActive: true, totalSteps: total, currentStepIndex: 0 }),
     endTour: () => {
         set({ isTourActive: false, robotMessage: null, robotPosition: null, currentStepIndex: 0, highlightedElement: null });

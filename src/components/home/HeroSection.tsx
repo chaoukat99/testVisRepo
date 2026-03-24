@@ -13,6 +13,46 @@ interface HeroSectionProps {
   badgeText?: string;
 }
 
+const Typewriter = ({ text, delay = 0, speed = 100, showCursor = true }: { text: string; delay?: number; speed?: number; showCursor?: boolean }) => {
+  const [displayedText, setDisplayedText] = useState("");
+  const [complete, setComplete] = useState(false);
+
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+    let index = 0;
+
+    const type = () => {
+      if (index <= text.length) {
+        setDisplayedText(text.slice(0, index));
+        index++;
+        timeout = setTimeout(type, speed);
+      } else {
+        setComplete(true);
+      }
+    };
+
+    const startTimeout = setTimeout(type, delay);
+
+    return () => {
+      clearTimeout(startTimeout);
+      clearTimeout(timeout);
+    };
+  }, [text, delay, speed]);
+
+  return (
+    <span className="inline-flex items-center">
+      {displayedText}
+      {showCursor && !complete && (
+        <motion.span
+          animate={{ opacity: [1, 0] }}
+          transition={{ duration: 0.8, repeat: Infinity }}
+          className="ml-1 w-2 md:w-4 h-8 md:h-12 bg-primary inline-block self-center"
+        />
+      )}
+    </span>
+  );
+};
+
 export function HeroSection({ type, topTitle, badgeText }: HeroSectionProps) {
   const { t } = useLanguage();
 
@@ -154,12 +194,13 @@ export function HeroSection({ type, topTitle, badgeText }: HeroSectionProps) {
           className="max-w-5xl text-4xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.1] text-white"
         >
           <div className="flex flex-row items-center justify-center gap-2 md:gap-4 flex-wrap">
-            {/* Top Title Removed */}
-            <span className="opacity-90 whitespace-nowrap">{t('hero.title_prefix')}</span>
+            <span className="opacity-90 whitespace-nowrap">
+              <Typewriter text={t('hero.title_prefix')} delay={500} />
+            </span>
             <span
               className="relative inline-flex items-center bg-gradient-to-r from-primary via-indigo-400 to-accent bg-clip-text text-transparent"
             >
-              {t('hero.words.excellence')}
+              <Typewriter text={t('hero.words.excellence')} delay={1500} showCursor={false} />
             </span>
           </div>
         </motion.h1>

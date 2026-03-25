@@ -20,53 +20,42 @@ import {
 
 const features = [
     {
-        title: "AGENTS IA",
+        title: "Automatisation des processus",
         icon: Bot,
-        description: "Accédez à nos agents intelligents spécialisés pour automatiser vos tâches et augmenter votre productivité.",
+        description: "réation d'agents IA, automatisation des emails, et gestion de flux de travail",
         color: "from-purple-500 to-indigo-600"
     },
     {
-        title: "BOITE A OUTILS",
+        title: "Solutions IA sur-mesure",
         icon: Wrench,
-        description: "Une suite complète d'outils numériques et de templates pour accélérer vos projets et missions.",
+        description: " Développement de chatbots, assistants virtuels, et outils d'analyse prédictive.",
         color: "from-blue-500 to-cyan-500"
     },
     {
-        title: "BIBLIOTHEQUE",
+        title: "Conseil et intégration",
         icon: Library,
-        description: "Une vaste collection de ressources, livres blancs et documentations techniques à portée de main.",
+        description: "Analyse des besoins métiers et déploiement de solutions d'apprentissage automatique",
         color: "from-emerald-500 to-teal-500"
     },
     {
-        title: "Optimisation CV",
+        title: "OpenIn Ai Academy",
         icon: FileCheck,
-        description: "Analysez et améliorez votre CV grâce à nos algorithmes d'IA pour maximiser vos chances.",
+        description: "Plateforme de formation dédiée aux métiers de l'IA. L’ objectif est de transmettre les méthodes de conseil et de former des professionnels capables d’intervenir sur des missions stratégiques en IA",
         color: "from-orange-500 to-amber-500"
     },
+    // {
+    //     title: "Sécurité et Données",
+    //     icon: FileText,
+    //     description: "Intégration de données propres, structuration, et conformité réglementaire",
+    //     color: "from-pink-500 to-rose-500"
+    // },
     {
-        title: "ARTICLES",
-        icon: FileText,
-        description: "Restez informé avec nos articles de fond sur les tendances de l'IA, du freelancing et de la tech.",
-        color: "from-pink-500 to-rose-500"
-    },
-    {
-        title: "RECHERCHE GUIDES",
+        title: "Agent IA Factory",
         icon: Search,
-        description: "Des guides détaillés pour naviguer dans l'écosystème freelance et réussir vos missions.",
+        description: "Développement et orchestration d'agents intelligents sur mesure pour automatiser les processus critiques, augmenter la performance opérationnelle et transformer durablement les organisations.",
         color: "from-violet-500 to-purple-500"
     },
-    {
-        title: "FORMATION et CERTIFICATION",
-        icon: GraduationCap,
-        description: "Parcours de formation certifiants pour valider vos compétences et booster votre carrière.",
-        color: "from-yellow-400 to-orange-500"
-    },
-    {
-        title: "FORMATION et CERTIFICATION",
-        icon: GraduationCap,
-        description: "Parcours de formation certifiants pour valider vos compétences et booster votre carrière.",
-        color: "from-yellow-400 to-orange-500"
-    }
+
 ];
 
 export default function LyaAgenceAi() {
@@ -83,13 +72,13 @@ export default function LyaAgenceAi() {
                     <div className="container relative z-10 px-6">
                         <div className="flex flex-col items-center mb-12">
                             <SectionHeading
-                                badge="Ecosystème GHAYA"
-                                title="Ressources & Accélérateurs"
-                                description="Tous les outils dont vous avez besoin pour exceller dans vos missions."
+                                badge="Univers GHAYA Agence AI"
+                                title="Rendre l’intelligence artificielle opérationnelle ."
+                                description="Ghaya est Une agence IA spécialisée dans l'intégration de l'intelligence artificielle pour optimiser la performance opérationnelle, automatiser les processus et créer des solutions sur-mesure.  "
                             />
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
                             {features.map((feature, index) => (
                                 <motion.div
                                     key={feature.title}

@@ -39,7 +39,7 @@ import { SectionDivider } from "@/components/ui/SectionDivider";
 import { SectionGlow } from "@/components/ui/SectionGlow";
 
 interface FeaturesSectionProps {
-  type: "company" | "consultant" | "freelancer" | "resources";
+  type: "company" | "consultant" | "freelancer" | "resources" | "home";
   showDescription?: boolean;
   maxItems?: number;
   showBadge?: boolean;
@@ -47,6 +47,84 @@ interface FeaturesSectionProps {
 
 export function FeaturesSection({ type, showDescription = true, maxItems, showBadge = true }: FeaturesSectionProps) {
   const { t } = useLanguage();
+
+  const homeFeatures = [
+    {
+      icon: Brain,
+      title: t('features_home.items.matching_ai.title'),
+      description: t('features_home.items.matching_ai.desc'),
+      color: "from-primary to-cyan-400",
+      link: "/company/dashboard",
+    },
+    {
+      icon: Search,
+      title: t('features_home.items.search.title'),
+      description: t('features_home.items.search.desc'),
+      color: "from-accent to-pink-400",
+      link: "/company/search-talents",
+    },
+    {
+      icon: Users,
+      title: t('features_home.items.consultants_base.title'),
+      description: t('features_home.items.consultants_base.desc'),
+      color: "from-emerald-400 to-teal-400",
+      link: "/company/missions",
+    },
+    {
+      icon: LayoutDashboard,
+      title: t('features_home.items.company_portal.title'),
+      description: t('features_home.items.company_portal.desc'),
+      color: "from-orange-400 to-amber-400",
+    },
+    {
+      icon: Zap,
+      title: t('features_home.items.instant_match.title'),
+      description: t('features_home.items.instant_match.desc'),
+      color: "from-yellow-400 to-orange-500",
+    },
+    {
+      icon: Shield,
+      title: t('features_home.items.verified_profiles.title'),
+      description: t('features_home.items.verified_profiles.desc'),
+      color: "from-blue-500 to-indigo-600",
+    },
+    {
+      icon: Globe,
+      title: t('features_home.items.global_network.title'),
+      description: t('features_home.items.global_network.desc'),
+      color: "from-cyan-500 to-blue-600",
+    },
+    {
+      icon: Star,
+      title: t('features_home.items.smart_reco.title'),
+      description: t('features_home.items.smart_reco.desc'),
+      color: "from-purple-500 to-pink-500",
+    },
+    {
+      icon: TrendingUp,
+      title: t('features_home.items.analytics.title'),
+      description: t('features_home.items.analytics.desc'),
+      color: "from-blue-600 to-cyan-400",
+    },
+    {
+      icon: Shield,
+      title: t('features_home.items.compliance.title'),
+      description: t('features_home.items.compliance.desc'),
+      color: "from-emerald-500 to-teal-400",
+    },
+    {
+      icon: SearchCheck,
+      title: t('features_home.items.sourcing.title'),
+      description: t('features_home.items.sourcing.desc'),
+      color: "from-indigo-400 to-purple-500",
+    },
+    {
+      icon: Mic,
+      title: t('features_home.items.support.title'),
+      description: t('features_home.items.support.desc'),
+      color: "from-orange-400 to-amber-400",
+    },
+  ];
 
   const companyFeatures = [
     {
@@ -129,15 +207,15 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
   const consultantFeatures = [
     {
       icon: LayoutDashboard,
-      title: "Tableau de bord",
-      description: "Suivez vos missions, accédez à vos statistiques et gérez votre activité en un coup d'œil.",
+      title: "Valoriser votre CV & Expertise",
+      description: "Envirenement permettant d'analyser et  d'optimiser votre CV pour ATS .  ",
       color: "from-blue-500 to-indigo-400",
       link: "/consultant/dashboard",
     },
     {
       icon: Bot,
-      title: "Optimisation CV par agent AI",
-      description: "Utilisez notre agent intelligent pour perfectionner votre CV et mettre en avant vos meilleures compétences.",
+      title: " Accédez à des missions à forte valeur",
+      description: "Openin sélectionne des missions stratégiques proposées par des entreprises en transformation.<br>Vous intervenez sur des projets qui nécessitent une expertise réelle",
       color: "from-amber-400 to-orange-400",
     },
     {
@@ -160,39 +238,7 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
     },
   ];
 
-  const freelancerFeatures = [
-    {
-      icon: Zap,
-      title: t('features_freelancer.items.mission_hub.title'),
-      description: t('features_freelancer.items.mission_hub.desc'),
-      color: "from-orange-500 to-yellow-400",
-      link: "/consultant/dashboard",
-    },
-    {
-      icon: LayoutList,
-      title: t('features_freelancer.items.automated_billing.title'),
-      description: t('features_freelancer.items.automated_billing.desc'),
-      color: "from-blue-400 to-cyan-500",
-    },
-    {
-      icon: Users,
-      title: t('features_freelancer.items.tech_community.title'),
-      description: t('features_freelancer.items.tech_community.desc'),
-      color: "from-green-500 to-emerald-400",
-    },
-    {
-      icon: Sparkles,
-      title: t('features_freelancer.items.smart_alerts.title'),
-      description: t('features_freelancer.items.smart_alerts.desc'),
-      color: "from-purple-400 to-indigo-500",
-    },
-    {
-      icon: ShieldCheck,
-      title: t('features_consultant.items.secure_payments.title'),
-      description: t('features_consultant.items.secure_payments.desc'),
-      color: "from-emerald-400 to-teal-500",
-    },
-  ];
+  const freelancerFeatures = consultantFeatures;
 
   const resourcesFeatures = [
     {
@@ -228,42 +274,12 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
     },
   ];
 
-  const managerFeatures = [
-    {
-      icon: Truck,
-      title: "Pilotage Flux Logistiques",
-      description: "Optimisez la chaîne d'approvisionnement et supervisez les opérations de transit international.",
-      color: "from-blue-600 to-cyan-500",
-    },
-    {
-      icon: FileCheck,
-      title: "Conformité Douanière",
-      description: "Assurez la conformité réglementaire et gérez efficacement les formalités douanières.",
-      color: "from-emerald-500 to-green-600",
-    },
-    {
-      icon: TrendingUp,
-      title: "Performance & KPI",
-      description: "Suivez les indicateurs clés de performance et optimisez les coûts de transport.",
-      color: "from-purple-500 to-indigo-600",
-    },
-    {
-      icon: Briefcase,
-      title: "Gestion d'Équipe",
-      description: "Pilotez vos équipes de transitaires et coordonnez les actions avec les prestataires.",
-      color: "from-orange-500 to-amber-500",
-    },
-    {
-      icon: Headphones,
-      title: "Support Logistique",
-      description: "Une assistance dédiée pour résoudre vos problématiques de transport en temps réel.",
-      color: "from-cyan-400 to-blue-500",
-    },
-  ];
+  const managerFeatures = consultantFeatures;
 
   const [activeCategory, setActiveCategory] = useState<"consultant" | "freelance" | "manager">("consultant");
 
   const getFilteredFeatures = () => {
+    if (type === "home") return homeFeatures;
     if (type !== "consultant") return type === "company" ? companyFeatures : type === "resources" ? resourcesFeatures : freelancerFeatures;
 
     switch (activeCategory) {
@@ -301,9 +317,9 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
   const headingData = getHeadingData();
 
   const categoryDescriptions = {
-    consultant: "Découvrez des missions qui correspondent vraiment à vos compétences et à vos aspirations grâce à notre IA.",
-    freelance: "Gérez votre activité en toute liberté et accédez à des missions exclusives adaptées à votre profil.",
-    manager: "Pilotez des opérations logistiques complexes et optimisez les flux de transit avec nos outils dédiés."
+    consultant: t('features_consultant.categories.consultant'),
+    freelance: t('features_consultant.categories.freelance'),
+    manager: t('features_consultant.categories.manager')
   };
 
   return (
@@ -391,9 +407,10 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
                         </h3>
                       </div>
                       {showDescription && feature.description && (
-                        <p className="text-sm text-muted-foreground leading-relaxed">
-                          {feature.description}
-                        </p>
+                        <div
+                          className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line"
+                          dangerouslySetInnerHTML={{ __html: feature.description }}
+                        />
                       )}
                     </GlassCard>
                   </Link>
@@ -410,9 +427,10 @@ export function FeaturesSection({ type, showDescription = true, maxItems, showBa
                       </h3>
                     </div>
                     {showDescription && feature.description && (
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        {feature.description}
-                      </p>
+                      <div
+                        className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line"
+                        dangerouslySetInnerHTML={{ __html: feature.description }}
+                      />
                     )}
                   </GlassCard>
                 )}

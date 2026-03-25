@@ -6,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionDivider } from "@/components/ui/SectionDivider";
 import { SectionGlow } from "@/components/ui/SectionGlow";
+import { Logo } from "@/components/ui/Logo";
 import {
     Dialog,
     DialogContent,
@@ -75,7 +76,7 @@ export const GSAPShowcase = () => {
                         style={{ y: yMove }}
                         className="lg:w-1/2 space-y-8"
                     >
-                        <h2 style={{ fontSize: 25 }} className="text-2xl md:text-3xl lg:text-[40px] font-black tracking-tight leading-tight text-foreground flex flex-wrap gap-x-4">
+                        <h2 style={{ fontSize: 35 }} className="text-2xl md:text-3xl lg:text-[40px] font-black tracking-tight leading-tight text-foreground flex flex-wrap gap-x-4">
                             <span>{t('gsap_showcase.title_part1')}</span>
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
                                 {t('gsap_showcase.title_highlight')}
@@ -83,12 +84,17 @@ export const GSAPShowcase = () => {
                             <span>{t('gsap_showcase.title_part2')}</span>
                         </h2>
 
-                        <p className="text-lg text-muted-foreground leading-relaxed max-w-lg font-light">
-                            {t('gsap_showcase.description')}
+                        <p className="text-lg text-muted-foreground leading-relaxed max-w-full font-light">
+                            {t('gsap_showcase.description').split('\n').map((part, index) => (
+                                <span key={index}>
+                                    {part}
+                                    {index !== t('gsap_showcase.description').split('\n').length - 1 && <><br /><br /></>}
+                                </span>
+                            ))}
                         </p>
 
                         {/* Feature Stack Mini-Grid */}
-                        <div className="grid grid-cols-2 gap-4 pt-4">
+                        {/* <div className="grid grid-cols-2 gap-4 pt-4">
                             <div className="flex items-center gap-3 p-3 rounded-xl bg-secondary/30 border border-border/50 backdrop-blur-sm">
                                 <Brain className="w-5 h-5 text-orange-500" />
                                 <span className="text-sm font-bold text-foreground/80">{t('gsap_showcase.stack.sourcing')}</span>
@@ -105,7 +111,7 @@ export const GSAPShowcase = () => {
                                 <Lock className="w-5 h-5 text-red-500" />
                                 <span className="text-sm font-bold text-foreground/80">{t('gsap_showcase.stack.compliance')}</span>
                             </div>
-                        </div>
+                        </div> */}
                     </motion.div>
 
                     {/* Right: Visual Showcase */}
@@ -134,11 +140,8 @@ export const GSAPShowcase = () => {
                             <div className="relative z-20 w-48 h-52 group cursor-pointer">
                                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-purple-500/20 backdrop-blur-xl clip-hex transition-all duration-500 group-hover:scale-110 group-hover:bg-primary/30" />
                                 <div className="absolute inset-[2px] bg-background clip-hex flex items-center justify-center">
-                                    <div className="text-center space-y-2">
-                                        <Activity className="w-12 h-12 text-primary mx-auto animate-pulse" />
-                                        <div className="text-[10px] font-black uppercase tracking-widest text-muted-foreground/80">
-                                            {t('gsap_showcase.visual.core_logic')}
-                                        </div>
+                                    <div className="text-center group-hover:scale-110 transition-transform duration-500">
+                                        <Logo size="lg" animate={false} />
                                     </div>
                                 </div>
                                 {/* Decorative borders */}
@@ -215,7 +218,7 @@ export const GSAPShowcase = () => {
 
             {/* Entity Details Modal */}
             <Dialog open={!!selectedNode} onOpenChange={() => setSelectedNode(null)}>
-                <DialogContent className="sm:max-w-lg bg-[#020617]/95 border-primary/20 backdrop-blur-2xl shadow-[0_0_50px_rgba(59,130,246,0.2)]">
+                <DialogContent className="sm:max-w-lg bg-[#020617]/95 border-primary/20 backdrop-blur-2xl shadow-[0_0_50px_rgba(59,130,246,0.2)] max-h-[80vh] overflow-y-auto custom-scrollbar">
                     <DialogHeader>
                         <div className="flex items-center gap-4 mb-4">
                             <div className="p-3 rounded-2xl bg-primary/10 border border-primary/20">
@@ -225,9 +228,10 @@ export const GSAPShowcase = () => {
                                 {selectedNode?.title}
                             </DialogTitle>
                         </div>
-                        <DialogDescription className="text-lg text-white/70 leading-relaxed font-light">
-                            {selectedNode?.desc}
-                        </DialogDescription>
+                        <div
+                            className="text-lg text-white/70 leading-relaxed font-light whitespace-pre-line"
+                            dangerouslySetInnerHTML={{ __html: selectedNode?.desc || '' }}
+                        />
                     </DialogHeader>
                     <div className="mt-8 flex justify-end">
                         <DialogTitle className="sr-only">Actions</DialogTitle>
@@ -251,6 +255,19 @@ export const GSAPShowcase = () => {
                 }
                 .transform-3d {
                     transform-style: preserve-3d;
+                }
+                .custom-scrollbar::-webkit-scrollbar {
+                    width: 6px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: rgba(255, 255, 255, 0.2);
                 }
             `}} />
             <SectionDivider fill="fill-black" />

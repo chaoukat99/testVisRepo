@@ -178,13 +178,13 @@ export const SynergyDNASection = () => {
 
                     {/* Left: Text Content */}
                     <div className="dna-content space-y-8">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium backdrop-blur-sm">
+                        {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium backdrop-blur-sm">
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
                             </span>
                             {t('synergy_dna.badge')}
-                        </div>
+                        </div> */}
 
                         <h2 className="text-2xl md:text-4xl font-bold font-heading leading-tight text-white">
                             {t('synergy_dna.title')}{' '}
@@ -193,11 +193,12 @@ export const SynergyDNASection = () => {
                             </span>
                         </h2>
 
-                        <p className="text-xl text-gray-400 leading-relaxed max-w-xl">
-                            {t('synergy_dna.description')}
-                        </p>
+                        <div
+                            className="text-xl text-gray-400 leading-relaxed max-w-xl whitespace-pre-line"
+                            dangerouslySetInnerHTML={{ __html: t('synergy_dna.description') }}
+                        />
 
-                    
+
                     </div>
 
                     {/* Right: Floating Cards (Simulating 'Matches') */}
@@ -209,7 +210,11 @@ export const SynergyDNASection = () => {
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 flex items-center justify-center text-black font-bold text-xs">CF</div>
                                 <div>
-                                    <h4 className="text-white font-medium text-sm">CONSULTANT-FREELANCER</h4>
+                                    <h4 className="text-white font-black text-[13px] leading-tight tracking-wider">
+                                        Consultant <br />
+                                        Freelance Tech <br />
+                                        Manager de Transition
+                                    </h4>
                                     <p className="text-xs text-blue-300">{t('synergy_dna.cards.expert')}</p>
                                 </div>
                             </div>
@@ -240,8 +245,8 @@ export const SynergyDNASection = () => {
                                     <Building2 className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h4 className="text-white font-medium text-sm">TechCorp Inc.</h4>
-                                    <p className="text-xs text-purple-300">{t('synergy_dna.cards.long_mission')}</p>
+                                    <h4 className="text-white font-medium text-sm">Matching Confirmé</h4>
+                                    <p className="text-xs text-purple-300" dangerouslySetInnerHTML={{ __html: t('synergy_dna.cards.long_mission') }}></p>
                                 </div>
                             </div>
                             <div className="space-y-2">
@@ -253,8 +258,8 @@ export const SynergyDNASection = () => {
                             </div>
                         </div>
 
-                         {/* Card 4: Technical Validation (Newly updated) */}
-                         <div className="dna-card absolute top-[65%] left-0 md:left-10 p-4 rounded-full bg-black/60 border border-cyan-500/50 backdrop-blur-xl flex items-center gap-4 pr-8 shadow-[0_0_30px_rgba(6,182,212,0.2)]">
+                        {/* Card 4: Technical Validation (Newly updated) */}
+                        <div className="dna-card absolute top-[65%] left-0 md:left-10 p-4 rounded-full bg-black/60 border border-cyan-500/50 backdrop-blur-xl flex items-center gap-4 pr-8 shadow-[0_0_30px_rgba(6,182,212,0.2)]">
                             <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-500/50">
                                 <Zap className="w-6 h-6 text-cyan-500" />
                             </div>

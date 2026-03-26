@@ -16,27 +16,33 @@ import {
 
 const features = [
     {
-        title: "Offre de recrutement",
+        title: "Accédez à des expertises indépendantes",
         icon: Briefcase,
-        description: "Découvrez nos opportunités de carrière et rejoignez une équipe d'experts passionnés.",
+        description: "Accès rapide à des talents hautement qualifiés pour répondre aux besoins de missions, absorber les pics d’activité et accéder à des expertises rares.",
         color: "from-blue-500 to-indigo-600"
     },
     {
         title: "Recherche Profils & Entretien IA",
         icon: Bot,
-        description: "Utilisez notre technologie d'IA pour identifier et évaluer les meilleurs talents pour vos besoins.",
+        description: "Utilisez notre technologie d'IA pour identifier et évaluer les meilleurs talents pour vos recrutements.",
         color: "from-purple-500 to-pink-500"
     },
     {
-        title: "Article Recherche GUIDES",
+        title: "Openin Consulting Academy",
         icon: FileText,
-        description: "Accédez à nos guides exclusifs et articles de recherche pour approfondir vos connaissances.",
+        description: "Plateforme de formation dédiée aux métiers du conseil. L’ objectif est de transmettre les méthodes  de conseil et de former des professionnels capables d’intervenir sur des missions stratégiques",
         color: "from-amber-400 to-orange-500"
     },
     {
-        title: "Veille Technologique",
+        title: "Augmentez vos équipes grâce à l’IA Ghaya",
         icon: Radar,
-        description: "Restez à la pointe de l'innovation grâce à notre système de veille technologique automatisée.",
+        description: "Les cabinets partenaires d’Openin peuvent bénéficier des outils IA développés par Ghaya, l’agence IA de la plateforme. Les cabinets peuvent ainsi offrir davantage de valeur à leurs clients et consultants.",
+        color: "from-emerald-400 to-teal-500"
+    },
+    {
+        title: "Etude stratégique et sectorielle",
+        icon: Radar,
+        description: "Accès à des études sectorielles et stratégiques pour éclairer vos décisions et enrichir vos missions.",
         color: "from-emerald-400 to-teal-500"
     }
 ];
@@ -55,13 +61,13 @@ export default function CabinetConseil() {
                     <div className="container relative z-10 px-6">
                         <div className="flex flex-col items-center mb-12">
                             <SectionHeading
-                                badge="Cabinets de Conseil"
-                                title="Cabinet de Conseil"
-                                description="Accompagnement stratégique et solutions technologiques avancées."
+                                badge="Univers Cabinets de Conseil"
+                                title="Augmentez la capacité et la flexibilité de votre cabinet"
+                                description=""
                             />
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                             {features.map((feature, index) => (
                                 <motion.div
                                     key={feature.title}

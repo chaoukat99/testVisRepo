@@ -57,7 +57,7 @@ const Index = () => {
 
           <GSAPShowcase />
           <SynergyDNASection />
-          <FeaturesSection type="company" showDescription={false} showBadge={false} />
+          <FeaturesSection type="home" showDescription={true} showBadge={false} />
           <HowItWorksSection />
           {/* <NetworkingSection /> */}
           {/* <AntigravitySection /> */}

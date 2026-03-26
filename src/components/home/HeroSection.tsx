@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Building2, Users, Rocket, LogIn } from "lucide-react";
+import { ArrowRight, Building2, Users, Rocket, LogIn, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionDivider } from "@/components/ui/SectionDivider";
@@ -192,28 +192,31 @@ export function HeroSection({ type, topTitle, badgeText }: HeroSectionProps) {
         <motion.h1
           variants={titleVariants}
           className="max-w-5xl text-4xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.1] text-white"
+          style={{ fontSize: "60px" }}
         >
-          <div className="flex flex-row items-center justify-center gap-2 md:gap-4 flex-wrap">
-            <span className="opacity-90 whitespace-nowrap">
+          <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
+            <span className="opacity-90">
               <Typewriter text={t('hero.title_prefix')} delay={500} />
             </span>
             <span
               className="relative inline-flex items-center bg-gradient-to-r from-primary via-indigo-400 to-accent bg-clip-text text-transparent"
             >
-              <Typewriter text={t('hero.words.excellence')} delay={1500} showCursor={false} />
+              <Typewriter text={t('hero.words.excellence')} delay={2500} showCursor={false} />
             </span>
           </div>
         </motion.h1>
-        <motion.div variants={itemVariants} className="relative inline-flex">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/50 to-accent/50 blur-lg opacity-20" />
-          <span className="relative px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-xl text-xs sm:text-sm font-medium tracking-[0.2em] uppercase text-white/70">
+        <motion.div variants={itemVariants} className="relative inline-flex group">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/50 to-accent/50 blur-lg opacity-20 transition-opacity duration-500 group-hover:opacity-40" />
+          <span className="relative px-8 py-3 rounded-full border border-white/10 bg-white/5 backdrop-blur-xl text-sm sm:text-base font-medium tracking-[0.2em] uppercase text-white/70 flex items-center gap-4" style={{ color: "#85c932" }}>
+            <Sparkles className="w-5 h-5 text-primary animate-pulse" />
             {badgeText || t('hero.badge')}
+            <Sparkles className="w-5 h-5 text-primary animate-pulse" />
           </span>
         </motion.div>
         {/* Subtitle */}
         <motion.p
           variants={itemVariants}
-          className="max-w-2xl text-lg md:text-xl text-white/50 leading-relaxed font-light tracking-wide text-balance"
+          className="max-w-4xl text-lg md:text-xl text-white/50 leading-relaxed font-light tracking-wide mx-auto"
         >
           {t('hero.subtitle')} {t('hero.subtitle_highlight')}
         </motion.p>
